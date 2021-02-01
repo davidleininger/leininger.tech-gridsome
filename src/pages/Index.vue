@@ -3,7 +3,7 @@
 
     <section class="flex items-center relative z-10 w-full max-w-5xl mx-auto">
     <div class="multiline flex flex-col justify-center items-start">
-      <h1 class="text-5xl text-black dark:text-white font-bold yo">I'm David <div class="say-my-name relative">Leininger</div>.</h1>
+      <h1 class="text-5xl text-black dark:text-white font-bold font-mono">I'm David <div class="say-my-name relative">Leininger</div>.</h1>
       <h2 class="text-3xl my-2">I design and build things for the internets.</h2>
       <h3 class="text-lg my-2">I like learning and <span class="strike">sometimes</span> hardly ever write about it.</h3>
       <p class="text-xs my-2">This is some small text.</p>
@@ -29,9 +29,6 @@ export default {
 </script>
 
 <style>
-.yo {
-  font-family: 'Source Code Pro', monospace;
-}
 .say-my-name{
   display: inline-block;
   animation: goodLuck 0.2s;

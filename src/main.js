@@ -10,4 +10,22 @@ import DefaultLayout from '~/layouts/Default.vue'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  head.link.push({
+    rel: 'preload',
+    href: '/assets/fonts/CartographCF-Bold-subset.woff2',
+    as: 'font',
+    crossOrigin: 'anonymous'
+  })
+  head.link.push({
+    rel: 'preload',
+    href: '/assets/fonts/marcher-regular-subset.woff2',
+    as: 'font',
+    crossOrigin: 'anonymous'
+  })
+  head.link.push({
+    rel: 'preload',
+    href: '/assets/fonts/marcher-regularitalic-subset.woff2',
+    as: 'font',
+    crossOrigin: 'anonymous'
+  })
 }

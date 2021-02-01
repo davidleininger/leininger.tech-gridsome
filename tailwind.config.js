@@ -49,6 +49,24 @@ module.exports = {
         '-2': '-2',
       },
     },
+    fontFamily: {
+        sans: [
+          'Marcher',
+          'system-ui',
+          'BlinkMacSystemFont',
+          '-apple-system',
+          'Segoe UI',
+          'Roboto',
+          'Oxygen',
+          'Ubuntu',
+          'Cantarell',
+          '"Fira Sans"',
+          '"Droid Sans"',
+          '"Helvetica Neue"',
+          'sans-serif'
+        ],
+        mono: ['Cartograph', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace']
+      }
   },
   variants: {},
   plugins: [],

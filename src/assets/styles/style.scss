@@ -1,4 +1,28 @@
 /* ---
+  Fonts
+--- */
+@font-face {
+  font-family: 'Cartograph';
+  font-style:  bold;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/CartographCF-Bold-subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Marcher';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/marcher-regular-subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Marcher';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/marcher-regularitalic-subset.woff2") format("woff2");
+}
+/* ---
   Global
 --- */
 :root {
@@ -22,6 +46,7 @@
 body{
   background: theme('colors.grey-light');
   &.dark {background: theme('colors.black');}
+  font-family: theme('fontFamily.sans');
 }
 ::selection {
   background: rgba(197, 165, 197, .5);
@@ -140,7 +165,7 @@ code[class*="language-"] {
   color: var(--foreground);
   font-size: 0.875rem;
   text-shadow: none;
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-family: 'Cartograph', Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
