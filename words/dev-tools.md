@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Save Snippets in Dev Tools
+pageTitle: today I learned | leininger.tech
 TILIndex: 1
-pageTitle: Save Snippets in Dev Tools
 date: 2019-01-14
 source: https://twitter.com/jasonlbeggs/status/1084820032109060096
 ---

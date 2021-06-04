@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   darkMode: 'class',
   purge: {
     content: [
@@ -35,6 +36,9 @@ module.exports = {
       fontSize: {
         xxs: '0.6rem'
       },
+      minHeight: {
+        page: 'calc(100vh - 1rem)'
+      },
       inset: {
         '100': '100%'
       },
@@ -68,6 +72,10 @@ module.exports = {
         mono: ['Cartograph', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace']
       }
   },
-  variants: {},
+  variants: {
+    extend: {
+      margin: ['last'],
+    }
+  },
   plugins: [],
 }

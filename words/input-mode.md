@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Input Mode
+pageTitle: today I learned | leininger.tech
 TILIndex: 14
-pageTitle: Input Mode
 date: 2020-08-21
 source: https://twitter.com/stefanjudis/status/1296749635290234882
 ---

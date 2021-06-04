@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Grayscale Accessibilty Test
+pageTitle: today I learned | leininger.tech
 TILIndex: 16
-pageTitle: Grayscale Accessibilty Test
 date: 2020-09-08
 source: https://twitter.com/mmatuzo/status/1303202836537376769
 ---

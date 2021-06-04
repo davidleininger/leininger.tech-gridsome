@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - broadway list
-pageTitle: Broadway
+title: Broadway
+pageTitle: broadway list | leininger.tech
 date: 2020-01-01
 ---
 

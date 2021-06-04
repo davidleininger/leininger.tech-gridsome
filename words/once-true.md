@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Event Listener - Once True
+pageTitle: today I learned | leininger.tech
 TILIndex: 12
-pageTitle: Event Listener - Once True
 date: 2020-07-24
 source: https://twitter.com/mmatuzo/status/1286586512319172610
 ---

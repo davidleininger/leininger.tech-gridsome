@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - movies list
-pageTitle: Movies
+title: Movies
+pageTitle: movies list | leininger.tech
 date: 2020-01-01
 ---
 

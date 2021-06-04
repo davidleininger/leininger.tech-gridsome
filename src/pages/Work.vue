@@ -1,8 +1,7 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iustoz.</p>
-    <p>abcdefghijklmnopqrstuvwxyz1234567890</p>
+    <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">Work</h1>
+    <p>I like learning and <span class="strike">sometimes</span> hardly ever write about it. I’m trying to be better about that now.</p>
   </Layout>
 </template>
 
@@ -11,6 +10,6 @@ export default {
   name: 'Work-Page',
   metaInfo: {
     title: 'Work'
-  }
+  },
 }
 </script>

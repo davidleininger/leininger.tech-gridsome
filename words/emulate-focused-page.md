@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Emulate Focused page
+pageTitle: today I learned | leininger.tech
 TILIndex: 18
-pageTitle: Emulate Focused page
 date: 2020-09-15
 source: https://twitter.com/sulco/status/1305841873945272321
 ---

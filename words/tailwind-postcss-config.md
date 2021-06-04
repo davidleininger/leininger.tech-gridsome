@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Tailwind PostCSS Config Flag
+pageTitle: today I learned | leininger.tech
 TILIndex: 19
-pageTitle: Tailwind PostCSS Config Flag
 date: 2020-09-28
 source: https://twitter.com/simonswiss/status/1310743276312383488
 ---

@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - blog
-pageTitle: Lint HTML in CSS
+title: Lint HTML in CSS
+pageTitle: blog | leininger.tech
 date: 2020-06-20
 ---
 

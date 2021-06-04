@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Hover Media Quesries
+pageTitle: today I learned | leininger.tech
 TILIndex: 8
-pageTitle: Hover Media Quesries
 date: 2020-04-21
 source: https://twitter.com/argyleink/status/1262906069854060546
 ---

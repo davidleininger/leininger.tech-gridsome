@@ -8,7 +8,7 @@ const postCSSPlugins = [require(`tailwindcss`)(),require(`autoprefixer`)]
 if (process.env.NODE_ENV === 'production') { postCSSPlugins.push(require(`postcss-clean`)) }
 
 module.exports = {
-    siteName: 'Leininger.Tech',
+    siteName: 'leininger.tech',
     plugins: [
       {
         use: '@gridsome/source-filesystem',

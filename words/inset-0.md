@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Inset 0
+pageTitle: today I learned | leininger.tech
 TILIndex: 9
-pageTitle: Inset 0
 date: 2020-05-19
 source: https://twitter.com/argyleink/status/1262906069854060546
 ---

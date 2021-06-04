@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-white dark:bg-black-light flex flex-col items-center p-4 text-grey-darkest dark:text-grey-dark xs:flex-row xs:justify-between" role="contentinfo">
     <nav class="flex">
-      <a v-for="link in socialLinks" :key="link.network" class="h-6 w-6 mr-4 hover:text-teal transform hover:-translate-y-1 transition-transform duration-200" :aria-label="link.network" :href="link.url">
+      <a v-for="link in socialLinks" :key="link.network" class="h-6 w-6 mr-4 last:mr-0 hover:text-teal transform hover:-translate-y-1 transition-transform duration-200" :aria-label="link.network" :href="link.url">
         <component :is="link.network"></component>
       </a>
     </nav>

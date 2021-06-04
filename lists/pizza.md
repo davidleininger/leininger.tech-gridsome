@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - pizza list
-pageTitle: STL Pizza
+title: STL Pizza
+pageTitle: stl pizza list | leininger.tech
 date: 2020-01-01
 ---
 

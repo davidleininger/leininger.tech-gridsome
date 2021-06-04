@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Placeholder Shown
+pageTitle: today I learned | leininger.tech
 TILIndex: 5
-pageTitle: Placeholder Shown
 date: 2020-03-30
 source: https://twitter.com/JoshWComeau/status/1245768582706987008
 ---

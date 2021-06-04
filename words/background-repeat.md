@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Background Repeat Round
+pageTitle: today I learned | leininger.tech
 TILIndex: 11
-pageTitle: Background Repeat Round
 date: 2020-06-23
 source: https://css-tricks.com/almanac/properties/b/background-repeat/
 ---

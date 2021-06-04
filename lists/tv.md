@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - tv shows list
-pageTitle: TV Shows
+title: TV Shows
+pageTitle: tv shows list | leininger.tech
 date: 2020-01-01
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: IE 11 Only Styles
+pageTitle: today I learned | leininger.tech
 TILIndex: 10
-pageTitle: IE 11 Only Styles
 date: 2020-06-15
 source: https://twitter.com/anniebombanie_/status/1272568151025295360
 ---

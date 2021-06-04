@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Netlify Functions Query Params
+pageTitle: today I learned | leininger.tech
 TILIndex: 19
-pageTitle: Netlify Functions Query Params
 date: 2020-11-14
 source: https://flaviocopes.com/netlify-functions-query-parameters/
 ---

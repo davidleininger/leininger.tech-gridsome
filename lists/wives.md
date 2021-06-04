@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - wives list
-pageTitle: Wives
+title: Wives
+pageTitle: wives list | leininger.tech
 date: 2020-01-01
 ---
 

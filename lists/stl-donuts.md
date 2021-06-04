@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - stl donuts list
-pageTitle: STL Donuts
+title: STL Donuts
+pageTitle: stl donuts list | leininger.tech
 date: 2020-01-01
 ---
 

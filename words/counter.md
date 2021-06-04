@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Counter
+pageTitle: today I learned | leininger.tech
 TILIndex: 6
-pageTitle: Counter
 date: 2020-04-02
 source: https://twitter.com/JoshWComeau/status/1245768582706987008
 ---

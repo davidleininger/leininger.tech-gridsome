@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Truncate Multi-line Text
+tipageTitle: today I learned | leininger.tech
 TILIndex: 2
-pageTitle: Truncate Multi-line Text
 date: 2019-09-20
 source: https://twitter.com/css/status/1162947246679351296
 ---

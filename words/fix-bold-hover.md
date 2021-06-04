@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Fix Bold on Hover Styles
+pageTitle: today I learned | leininger.tech
 TILIndex: 13
-pageTitle: Fix Bold on Hover Styles
 date: 2020-07-28
 source: https://twitter.com/hexagoncircle/status/1285234486200934402
 ---

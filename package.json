@@ -2,7 +2,7 @@
   "name": "leininger.tech",
   "private": true,
   "engines": {
-    "node": ">=15.3.0"
+    "node": ">=14.8.0"
   },
   "scripts": {
     "build": "gridsome build",

@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - soda list
-pageTitle: Soda
+title: Sodas
+pageTitle: sodas list | leininger.tech
 date: 2020-01-01
 ---
 

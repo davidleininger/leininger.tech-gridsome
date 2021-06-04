@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - blog
-pageTitle: Attribute Selectors
+title: Attribute Selectors
+pageTitle: blog | leininger.tech
 date: 2020-01-30
 ---
 

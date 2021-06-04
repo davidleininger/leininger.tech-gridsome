@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Scaling Text in Figma
+pageTitle: today I learned | leininger.tech
 TILIndex: 20
-pageTitle: Scaling Text in Figma
 date: 2020-11-16
 ---
 

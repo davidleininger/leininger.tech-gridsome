@@ -1,6 +1,6 @@
 ---
-title: leininger.tech - stl custard list
-pageTitle: STL Custard
+title: STL Custard
+pageTitle: stl custard list | leininger.tech
 date: 2020-01-01
 ---
 

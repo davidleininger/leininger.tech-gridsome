@@ -1,7 +1,7 @@
 ---
-title: leininger.tech - today I learned
+title: Scroll Margins
+pageTitle: today I learned | leininger.tech
 TILIndex: 7
-pageTitle: Scroll Margins
 date: 2020-04-13
 source: https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/
 ---
