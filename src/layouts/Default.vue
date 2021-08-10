@@ -18,13 +18,19 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #main-content {
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   width: calc(90vw - 1rem);
-  width: clamp(16rem, calc(90vw - 1rem), 72rem);
+  width: clamp(16rem, 90vw, 48rem);
+  &.landing {
+    width: clamp(16rem, 90vw, 64rem);
+  }
+  &.two-col {
+    width: clamp(24rem, 90vw, 84rem);
+  }
 }
 </style>

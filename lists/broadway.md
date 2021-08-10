@@ -4,14 +4,14 @@ pageTitle: broadway list | leininger.tech
 date: 2020-01-01
 ---
 
-1. Sandlot: The Musical <br>(not yet written, but I'm working on it...)
+1. <div>Sandlot: The Musical <span class="description">(not yet written, but I'm working on it...)</span></div>
 2. Hamilton
 3. Once
 4. Dear Evan Hansen
 5. Aladin
 6. Wicked
 
-### Not Ranked Yet
+## Not Ranked Yet
 * Newsies
 * Something Rotten
 * Waitress
@@ -23,6 +23,6 @@ date: 2020-01-01
 * School of Rock
 * The Book of Mormon
 
-### Not worth your time...
+## Not worth your time...
 * The Band's Visit
 * Fun Home

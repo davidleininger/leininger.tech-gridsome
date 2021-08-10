@@ -41,7 +41,24 @@ module.exports = {
           typeName: 'ListItems',
         }
       },
+
     ],
+    transformers: {
+      remark: {
+        plugins: [
+          [
+            "remark-autolink-headings",
+            {
+              behavior: "wrap",
+              linkProperties: {
+                ariaHidden: "true",
+                tabIndex: -1,
+              },
+            },
+          ],
+        ],
+      },
+    },
     templates: {
       Posts: [
         {

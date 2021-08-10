@@ -1,7 +1,6 @@
 ---
-img: "./../images/lifeteen.jpg"
-layout: page
-order: 1
+img: "./poster.jpg"
+order: 10
 title: Life Teen
 slug: life-teen
 source: https://lifeteen.com

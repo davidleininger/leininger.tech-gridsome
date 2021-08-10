@@ -1,7 +1,6 @@
 ---
-img: "./../images/parent-life.jpg"
-layout: page
-order: 5
+img: "./poster.jpg"
+order: 12
 title: Parent Life
 slug: parent-life
 source: http://ltparentlife.com

@@ -1,8 +1,6 @@
 ---
-# beta: Launching Early 2018
-img: "./../images/victory.jpg"
-layout: page
-order: 3
+img: "./poster.jpg"
+order: 4
 title: The Victory App
 slug: victory
 source: http://thevictoryapp.com

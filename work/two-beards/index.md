@@ -1,7 +1,6 @@
 ---
-img: "./../images/lifeteen.jpg"
-layout: page
-order: 1
+img: "./poster.jpg"
+order: 3
 title: Two Beards
 source: https://twobeards.dev
 ---

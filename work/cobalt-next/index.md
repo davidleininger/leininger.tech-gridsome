@@ -1,6 +1,5 @@
 ---
-img: "./../images/gobooks.jpg"
-layout: page
+img: "./poster.jpg"
 order: 6
 title: Cobalt Next
 source: https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext

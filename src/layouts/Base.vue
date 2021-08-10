@@ -1,11 +1,11 @@
 <template>
   <div class="page-border p-2 relative">
     <div class="page min-h-page w-full flex flex-col">
-      <header class="flex items-center text-grey-darkest dark:text-grey-dark" role="banner">
+      <header class="flex items-center text-grey-darkest dark:text-grey" role="banner">
         <Logo />
         <Nav />
       </header>
-      <div id="main-wrapper" class="text-grey-darkest dark:text-grey-dark p-4 md:p-8 xl:p-12 w-full">
+      <div id="main-wrapper" class="text-grey-darkest dark:text-grey p-4 md:p-8 xl:p-12 w-full">
         <slot/>
       </div>
     <Footer />

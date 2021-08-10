@@ -1,6 +1,5 @@
 ---
-img: "./../images/classic.jpg"
-layout: page
+img: "./poster.jpg"
 order: 7
 title: Showghi Engineering
 # source: dribbble

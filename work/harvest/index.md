@@ -1,7 +1,6 @@
 ---
-img: "./../images/lifeteen.jpg"
-layout: page
-order: 1
+img: "./poster.jpg"
+order: 11
 title: Harvest Speed & Strength
 source: https://www.instagram.com/p/B3-jSxCBAoL/
 ---

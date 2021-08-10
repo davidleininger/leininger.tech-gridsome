@@ -1,6 +1,5 @@
 ---
-img: "./../images/shop-lt.jpg"
-layout: page
+img: "./poster.jpg"
 order: 2
 title: St Andrew Youth Ministry
 # source: dribbble
