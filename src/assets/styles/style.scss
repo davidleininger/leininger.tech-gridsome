@@ -163,15 +163,15 @@ article h2 {
   backface-visibility: hidden;
 }
 .logo::before {
-  background: linear-gradient(to bottom, var(--accent-dark) 50px, var(--accent));
+  background: linear-gradient(to bottom, #c5a5c5 50px, #c3a3c3, #bf9cbf, #ba94ba, #b48ab4, #af82af, #ab7bab, #a979a9);
   z-index: -2;
 }
 .dark .logo::before {
-  background: linear-gradient(to bottom, var(--accent) 50px, var(--accent-dark));
+  background: linear-gradient(to bottom, #fac863 50px, #f8c460, #f3ba58, #ecac4e, #e59d43, #de903a, #d88634, #d68232);
   z-index: -2;
 }
 .logo::after {
-  background: linear-gradient(to bottom, #5fb3b3 50px, #1A8384);
+  background: linear-gradient(to bottom, #5fb3b3 50px, #5cb0b0, #53a9a9, #47a0a0, #399696, #2b8c8d, #1f8687, #1a8384);
   transition: opacity .15s cubic-bezier(.79,.45,.37,.66);
   z-index: -1;
 }
