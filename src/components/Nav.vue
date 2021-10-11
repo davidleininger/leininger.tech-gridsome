@@ -1,9 +1,9 @@
 <template>
   <section class="relative flex justify-end items-center ml-auto">
-    <nav class="top-level-nav h-10 flex items-center">
-      <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="navIsOpen = !navIsOpen" :aria-expanded="navIsOpen.toString()">Menu</button>
-      <ul class="flex items-center justify-around pointer-events-none bg-grey-darkest opacity-0 top-100 right-0 absolute w-fill sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end sm:bg-transparent" :class="{'opacity-100 pointer-events-auto text-white sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
-        <li v-for="(link, index) in nav" :key="link.index">
+    <nav class="top-level-nav h-10 flex items-center" v-on-clickaway="closeNav">
+      <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="navIsOpen = !navIsOpen" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu />Menu</span><span class="flex flex-col justify-center items-center" v-else><Close />Close</span></button>
+      <ul class="flex items-center justify-around pointer-events-none bg-teal opacity-0 top-100 right-0 absolute w-fill sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end sm:bg-transparent" :class="{'opacity-100 pointer-events-auto text-white sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
+        <li v-for="(link, index) in nav" :key="link.index" @click="closeNav">
           <g-link :to="link.url" class="sm:px-2 h-10 flex items-center relative" :active="$route.path.startsWith === `/${link.url}`" :data-link="link.text">{{ link.text }}</g-link>
         </li>
       </ul>
@@ -17,11 +17,19 @@
 <script>
 import navigation from '@/data/navigation'
 import Toggle from '@/components/ToggleColorMode'
+import Menu from '@/components/icons/Menu'
+import Close from '@/components/icons/Close'
+import { directive as onClickaway } from 'vue-clickaway';
 
 export default {
   name: 'Nav',
   components: {
-    Toggle
+    Toggle,
+    Menu,
+    Close,
+  },
+  directives: {
+    onClickaway: onClickaway,
   },
   data() {
     return{
@@ -42,6 +50,9 @@ export default {
         document.body.classList.remove('dark');
       }
       localStorage.setItem('isDark', this.isDarkMode)
+    },
+    closeNav() {
+      this.navIsOpen = false;
     }
   },
 }

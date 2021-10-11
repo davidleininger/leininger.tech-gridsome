@@ -22,15 +22,13 @@ export default {
 #main-content {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: calc(90vw - 1rem);
-  width: clamp(16rem, 90vw, 48rem);
+  width: calc(90vw - 2rem);
+  width: clamp(14rem, calc(90vw - 2rem), 48rem);
   &.landing {
-    width: clamp(16rem, 90vw, 64rem);
+    width: clamp(14rem, calc(90vw - 2rem), 64rem);
   }
   &.two-col {
-    width: clamp(24rem, 90vw, 84rem);
+    width: clamp(14rem, calc(90vw - 2rem), 72rem);
   }
 }
 </style>

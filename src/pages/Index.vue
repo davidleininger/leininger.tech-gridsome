@@ -2,7 +2,7 @@
   <Layout class="landing">
     <section class="flex items-center isolate w-full mt-12 sm:mt-48 mb-12 max-w-5xl mx-auto">
     <div class="flex flex-col justify-center w-full">
-      <h1 class="text-5xl text-black dark:text-white font-bold font-mono mb-4">Hello, I'm David <div class="say-my-name relative">Leininger</div>.</h1>
+      <h1 class="text-5xl text-black dark:text-white font-bold font-mono mb-4">Hello, I'm <div class="look-at-me relative mr-8">David</div><div class="say-my-name relative">Leininger</div>.</h1>
       <h2 class="text-3xl mb-4">I design and build things for the internets.</h2>
       <h3 class="text-lg mb-4">I like learning and <span class="strike">sometimes</span> hardly ever write about it.</h3>
       <p class="text-xs my-0">This is some small text.</p>
@@ -21,6 +21,12 @@ export default {
 </script>
 
 <style>
+.look-at-me{
+  display: inline-block;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
 .say-my-name{
   display: inline-block;
   animation: goodLuck 0.2s;
