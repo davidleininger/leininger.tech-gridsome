@@ -60,6 +60,26 @@
 
       <h3>Insomnia </h3>
       <p>REST Client for testing API calls.</p>
+
+      <h2>Working Furniture</h2>
+      <h3>Autonmyous Frame</h3>
+      <p>Sittings the new smoking, right? I try not to sit all day, and I was looking for a good set of legs. Now, I stand on that great set of legs at my standing desk with Autonmyous legs.</p>
+
+      <h3>Handmade Red Oak Desktop</h3>
+      <p>To be fair, I used power tools. My hands can't cut and glue wood, but I still made the darn thing. I'll probably make another thicker version soon.</p>
+
+      <h3>Steelcase Leap V1</h3>
+      <p>When we started working remote at the begining of Covid, I knew I needed a better chair. This is a better chair. Oh and I swapped out those wheels for roller blade wheels, and I'm never going back.</p>
+
+      <h3>Keychron C1</h3>
+      <p>Recently jumped on the mecahnical keyboard game. We'll see how my likely new hobby is about to go, but it's fun so far. Let's get to modding.</p>
+
+      <h2>Bonus Crap</h2>
+      <h3>Airpods Pro</h3>
+      <p>So I can read ALL the audio books. They are good for meetings, too.</p>
+
+      <h3>Timbuk2 Bags</h3>
+      <p>These bags are the only bags I'll ever use. I've used them for the past 14 years, and they are the best dang bags. In all those years, only one thing ever took one down. Got a bullet caught in the bag when I was shot from a rogue celebratory New Years Eve shot in an airport parking lot. Ask me about it. It's a pretty great story.</p>
     </article>
   </Layout>
 </template>
@@ -72,3 +92,15 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+h3 {
+  color: var(--primary);
+  font-size: 1.15rem;
+  font-family: theme('fontFamily.mono');
+  margin-top: 0.5rem;
+}
+p {
+  margin-top: 0;
+}
+</style>
