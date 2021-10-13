@@ -6,10 +6,12 @@
       v-if="!successfulSend"
       name="contact"
       method="post"
+      autocomplete="on"
       v-on:submit.prevent="handleSubmit"
       action="/success/"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+      class="flex flex-col gap-6"
     >
       <input type="hidden" name="form-name" value="contact" />
       <p hidden>
@@ -17,23 +19,45 @@
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
-      <div class="sender-info">
-        <div>
-          <label for="name" class="label">Name</label>
-          <input type="text" name="name" placeholder="What your mom calls you..." v-model="formData.name" />
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" placeholder="you@probablygmail.com" v-model="formData.email" />
-        </div>
+      <div class="flex gap-6 sender-info">
+        <BaseInput
+          v-model="formData.name"
+          :error="error"
+          :has-errors="hasErrors"
+          label="Name"
+          type="text"
+          name="name"
+          placeholder="What your mom calls you..."
+          :required="true"
+          class="flex-1"
+        />
+        <BaseInput
+          v-model="formData.email"
+          :error="error"
+          :has-errors="hasErrors"
+          label="Email"
+          type="email"
+          name="email"
+          placeholder="you@probablygmail.com"
+          :required="true"
+          class="flex-1"
+        />
       </div>
 
-      <div class="message-wrapper">
-        <label for="message">Message</label>
-        <textarea name="message" placeholder="Words written by you that I’ll read..." v-model="formData.message"></textarea>
+      <div class="message-wrapper flex">
+        <base-textarea
+          v-model="formData.message"
+          :error="error"
+          :has-errors="hasErrors"
+          label="Message"
+          name="message"
+          placeholder="you@probablygmail.com"
+          :required="true"
+          class="flex-1"
+        />
       </div>
 
-      <button type="submit">Send</button>
+      <base-button type="submit" class="self-end">Send</base-button>
     </form>
     <div v-else>
       <h2>Thanks for reaching out</h2>
@@ -45,10 +69,14 @@
 
 <script>
 import BaseButton from '../components/BaseButton.vue'
+import BaseInput from '../components/BaseInput.vue'
+import BaseTextarea from '../components/BaseTextarea.vue'
 export default {
   name: 'Contact',
   components: {
-    BaseButton
+    BaseButton,
+    BaseInput,
+    BaseTextarea
   },
   metaInfo: {
     title: 'Contact'
