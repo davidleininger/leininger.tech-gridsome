@@ -3,7 +3,7 @@
     <div class="btn_group">
       <ButtonLink link="/lists">Back To List</ButtonLink>
     </div>
-    <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">{{ $page.list.title }}</h1>
+    <h1 class="text-black dark:text-white text-4xl sm:text-5xl font-mono mb-2 md:pr-4">{{ $page.list.title }}</h1>
     <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
     <article class="mt-12" v-html="$page.list.content"/>
   </Layout>
@@ -63,11 +63,17 @@ article /deep/ {
     margin-right: 1.5rem;
   }
   li {
-    font-size: theme('fontSize.5xl');
+    font-size: theme('fontSize.2xl');
     font-weight: bold;
     margin: 2rem 0;
     &:first-of-type {
       margin-top: 0;
+    }
+    @screen sm {
+      font-size: theme('fontSize.3xl');
+    }
+    @screen md {
+      font-size: theme('fontSize.4xl');
     }
   }
   .description {
