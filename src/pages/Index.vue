@@ -2,10 +2,10 @@
   <Layout class="landing">
     <section class="flex items-center isolate w-full mt-12 sm:mt-48 mb-12 max-w-5xl mx-auto">
     <div class="flex flex-col justify-center w-full">
-      <h1 class="text-5xl text-black dark:text-white font-bold font-mono mb-4">Hello, I'm <div class="look-at-me relative mr-8">David</div><div class="say-my-name relative">Leininger</div>.</h1>
-      <h2 class="text-3xl mb-4">I design and build things for the internets.</h2>
-      <h3 class="text-lg mb-4">I like learning and <span class="strike">sometimes</span> hardly ever write about it.</h3>
-      <p class="text-xs my-0">This is some small text.</p>
+      <h1 class="text-4xl sm:text-5xl text-black dark:text-white font-bold font-mono mb-4">Hello, I'm <div class="look-at-me relative mr-8">David</div><div class="say-my-name relative">Leininger</div>.</h1>
+      <h2 class="text-2xl sm:text-3xl mt-2 md:mt-0 mb-4 dark:text-grey-dark">I design and build things for the internets.</h2>
+      <h3 class="text-md sm:text-lg mt-1 md:mt-0 mb-4 dark:text-grey-dark">I like learning and <span class="strike">sometimes</span> hardly ever write about it.</h3>
+      <p class="text-xxs sm:ext-xs my-0 dark:text-grey-dark">This is some small text.</p>
     </div>
   </section>
   <section class="flex justify-center">
