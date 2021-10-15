@@ -1,5 +1,5 @@
 <template>
-  <main id="main-content" class="content mt-16">
+  <main id="main-content" class="content my-12">
     <slot/>
   </main>
 </template>
@@ -22,8 +22,10 @@ export default {
 #main-content {
   margin-left: auto;
   margin-right: auto;
-  width: calc(90vw - 2rem);
-  width: clamp(14rem, calc(90vw - 2rem), 48rem);
+  width: 100%;
+  &.list {
+    width: clamp(14rem, calc(90vw - 2rem), 48rem);
+  }
   &.landing {
     width: clamp(14rem, calc(90vw - 2rem), 64rem);
   }

@@ -186,12 +186,29 @@ article h2 {
   outline-offset: 2px;
   z-index: 10;
 }
-/* ---
-  Button Group
---- */
-.btn_group {
-  position: fixed;
-  left: 80%;
+// /* ---
+//   Content Grid / Button Group
+// --- */
+.content-grid {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-areas: "body" "btns";
+  grid-template-columns:  1fr;
+  @screen md{
+    grid-template-areas: "spacer body btns";
+    grid-template-columns:  1fr minmax(auto, 48rem) 1fr;
+  }
+  article {
+    grid-area: body;
+  }
+  .btn-group {
+    grid-area: btns;
+    @screen md{
+      * {
+        width: max-content;
+      }
+    }
+  }
 }
 /* ---
   Button / Button Link
