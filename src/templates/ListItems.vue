@@ -5,8 +5,8 @@
       <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
       <div class="mt-12" v-html="$page.list.content"/>
     </article>
-    <div class="btn-group">
-      <ButtonLink link="/lists">Back To List</ButtonLink>
+    <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
+      <ButtonLink link="/lists" class="flex-1 md:flex-none">Back To List</ButtonLink>
     </div>
   </Layout>
 </template>
