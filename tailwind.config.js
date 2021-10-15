@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: 'jit',
   darkMode: 'class',
@@ -42,9 +44,6 @@ module.exports = {
       inset: {
         '100': '100%'
       },
-      screens: {
-        xs: '450px'
-      },
       width: {
         fill: 'calc(100vw - 16px)'
       },
@@ -54,23 +53,27 @@ module.exports = {
       },
     },
     fontFamily: {
-        sans: [
-          'Marcher',
-          'system-ui',
-          'BlinkMacSystemFont',
-          '-apple-system',
-          'Segoe UI',
-          'Roboto',
-          'Oxygen',
-          'Ubuntu',
-          'Cantarell',
-          '"Fira Sans"',
-          '"Droid Sans"',
-          '"Helvetica Neue"',
-          'sans-serif'
-        ],
-        mono: ['Cartograph', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace']
-      }
+      sans: [
+        'Marcher',
+        'system-ui',
+        'BlinkMacSystemFont',
+        '-apple-system',
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        '"Fira Sans"',
+        '"Droid Sans"',
+        '"Helvetica Neue"',
+        'sans-serif'
+      ],
+      mono: ['Cartograph', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace']
+    },
+    screens: {
+      xs: '450px',
+      ...defaultTheme.screens,
+    },
   },
   variants: {
     extend: {
