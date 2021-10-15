@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="content-grid">
     <article>
       <h1 class="text-black dark:text-white text-5xl font-mono mb-2">Uses</h1>
       <p>Just like everyone else, this was inspired by <a href="https://wesbos.com/uses">Wes Bos</a>. These are things I use on a daily basis that make my life better, easier, or opinionated. You probably don’t really care, but I bet I’ve got a trick or two you don’t know about...</p>

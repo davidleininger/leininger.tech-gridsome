@@ -1,11 +1,13 @@
 <template>
-  <Layout class="list">
-    <div class="btn_group">
+  <Layout class="content-grid">
+    <article>
+      <h1 class="text-black dark:text-white text-4xl sm:text-5xl font-mono mb-2 md:pr-4">{{ $page.list.title }}</h1>
+      <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
+      <div class="mt-12" v-html="$page.list.content"/>
+    </article>
+    <div class="btn-group">
       <ButtonLink link="/lists">Back To List</ButtonLink>
     </div>
-    <h1 class="text-black dark:text-white text-4xl sm:text-5xl font-mono mb-2 md:pr-4">{{ $page.list.title }}</h1>
-    <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
-    <article class="mt-12" v-html="$page.list.content"/>
   </Layout>
 </template>
 

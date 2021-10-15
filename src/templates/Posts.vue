@@ -1,14 +1,14 @@
 <template>
-  <Layout>
-    <div class="btn_group flex flex-col">
-      <ButtonLink link="/words" class="mb-6">Back To Words</ButtonLink>
-      <ButtonLink v-if="$page.post.TILIndex" link="/til">Back To TIL</ButtonLink>
-    </div>
-    <article>
+  <Layout class="content-grid">
+    <article class="min-w-0">
       <h1 class="text-black dark:text-white font-mono text-5xl mb-2">{{ $page.post.title }}</h1>
       <p class="text-sm text-teal-dark dark:text-teal mb-8">{{ $page.post.date }} • {{ $page.post.timeToRead }} min</p>
       <div v-html="$page.post.content"/>
     </article>
+    <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
+      <ButtonLink link="/words" class="flex-1 md:flex-none">Back To Words</ButtonLink>
+      <ButtonLink v-if="$page.post.TILIndex" link="/til" class="flex-1 md:flex-none">Back To TIL</ButtonLink>
+    </div>
   </Layout>
 </template>
 
@@ -36,6 +36,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
