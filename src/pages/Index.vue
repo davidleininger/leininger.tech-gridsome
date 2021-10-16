@@ -8,7 +8,7 @@
       <p class="text-xxs sm:ext-xs my-0 dark:text-grey-dark">This is some small text.</p>
     </div>
   </section>
-  <section class="flex flex-col sm:flex-row gap-6">
+  <section class="flex flex-col sm:flex-row gap-6 border-t border-teal pt-8">
     <div class="flex-1">
       <h3 class="text-2xl text-teal-dark dark:text-teal font-mono">Somewhat Recent Writings</h3>
       <p>TODO: List 3 things and then see all link</p>
