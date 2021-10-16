@@ -1,9 +1,9 @@
 <template>
   <div class="page-border p-2 relative">
-    <div class="page min-h-page w-full flex flex-col">
+    <div class="page min-h-page w-full flex flex-col" :class="{'mobile-nav-open': navIsOpen}">
       <header class="flex items-center text-grey-darkest dark:text-grey" role="banner">
-        <Logo />
-        <Nav />
+        <Logo @click.native="navIsOpen = false" />
+        <Nav :nav-is-open="navIsOpen" @updateNav="handleNavChange" />
       </header>
       <div id="main-wrapper" class="text-grey-darkest dark:text-grey p-4 md:p-8 xl:p-12 w-full">
         <slot/>
@@ -32,6 +32,16 @@ export default {
     Logo,
     Nav,
     Footer
+  },
+  data() {
+    return {
+      navIsOpen: false
+    }
+  },
+  methods: {
+    handleNavChange(val) {
+      this.navIsOpen = val
+    }
   },
 }
 </script>
