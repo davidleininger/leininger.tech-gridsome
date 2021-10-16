@@ -2,7 +2,7 @@
   <section class="relative flex justify-end items-center ml-auto">
     <nav class="top-level-nav h-10 flex items-center">
       <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="handleChange" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu /></span><span class="flex flex-col justify-center items-center text-black" v-else><Close /></span></button>
-      <ul class="flex flex-col items-center justify-around text-4xl font-bold pointer-events-none opacity-0 top-100 right-0 absolute w-fill sm:flex-row sm:text-base sm:font-normal sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end" :class="{'opacity-100 pointer-events-auto text-white sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
+      <ul class="flex flex-col items-center justify-around text-4xl font-bold pointer-events-none opacity-0 top-100 right-0 absolute w-fill sm:flex-row sm:text-base sm:font-normal sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end" :class="{'pt-6 opacity-100 pointer-events-auto text-white sm:pt0 sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
         <li v-for="(link, index) in nav" :key="link.index" @click="closeNav">
           <g-link :to="link.url" class="cursor-pointer py-6 sm:py-0 sm:px-2 sm:h-10 flex items-center relative" :active="$route.path.startsWith === `/${link.url}`" :data-link="link.text">{{ link.text }}</g-link>
         </li>
