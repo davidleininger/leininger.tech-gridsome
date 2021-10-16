@@ -19,7 +19,7 @@
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
-      <div class="flex gap-6 sender-info">
+      <div class="flex flex-col sm:flex-row gap-6 sender-info">
         <BaseInput
           v-model="formData.name"
           :error="error"
