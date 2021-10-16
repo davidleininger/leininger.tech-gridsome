@@ -93,6 +93,10 @@ export default {
   transform: translate3d(0, -100%, 0);
   transition: transform .2s ease-in;
   width: 100%;
+  .mobile-nav-open & {
+    display: none;
+    content: '';
+  }
 }
 button.toggle {
   z-index: 1;
@@ -100,12 +104,6 @@ button.toggle {
 }
 button.toggle:hover, button.toggle:focus {
   color: theme('colors.black');
-  &::after {
-    .mobile-nav-open & {
-      display: none;
-      content: '';
-    }
-  }
 }
 button.toggle:after {
   z-index: -1;
