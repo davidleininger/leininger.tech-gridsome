@@ -182,13 +182,33 @@ article h2 {
   transition: opacity .15s cubic-bezier(.79,.45,.37,.66);
   z-index: -1;
 }
-.logo:hover::after, .logo:focus::after, .logo:active::after {
+.logo:hover::after, .logo:active::after {
+  opacity: 0;
+}
+.logo:focus::after{
+  opacity: 0;
+}
+.logo:focus:not(:focus-visible):not(:hover)::after{
+    opacity: 1;
+}
+.logo:focus-visible::after{
   opacity: 0;
 }
 .logo:focus {
   outline: none;
 }
 .logo:focus svg{
+  background-color: var(--accent);
+  outline: 2px dotted var(--accent);
+  outline-offset: 2px;
+  z-index: 10;
+}
+.logo:focus:not(:focus-visible) svg{
+  background-color: revert;
+  outline: none;
+}
+.logo:focus-visible svg{
+  background-color: var(--accent);
   outline: 2px dotted var(--accent);
   outline-offset: 2px;
   z-index: 10;
