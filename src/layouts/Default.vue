@@ -23,6 +23,14 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  transition: opacity 0.2s 0.2s ease-in;
+  @media screen and (max-width: theme('screens.sm')) {
+    .mobile-nav-open & {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease-out;
+    }
+  }
   &.list {
     width: clamp(14rem, calc(90vw - 2rem), 48rem);
   }

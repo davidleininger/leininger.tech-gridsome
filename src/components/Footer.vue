@@ -41,6 +41,15 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+footer {
+  transition: opacity 0.2s 0.2s ease-in;
+  @media screen and (max-width: theme('screens.sm')) {
+    .mobile-nav-open & {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease-out;
+    }
+  }
+}
 </style>

@@ -66,8 +66,15 @@ p{
 }
 .page{
   background: theme('colors.white');
+  transition: background-color 0.2s 0.2s ease-in;
   .dark & {background: theme('colors.black');}
   font-family: theme('fontFamily.sans');
+  @media screen and (max-width: theme('screens.sm')) {
+    &.mobile-nav-open {
+      background: transparent;
+      transition: background-color 0.2s ease-out;
+    }
+  }
 }
 ::selection {
   background: rgba(197, 165, 197, .5);

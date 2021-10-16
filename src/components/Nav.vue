@@ -1,10 +1,10 @@
 <template>
   <section class="relative flex justify-end items-center ml-auto">
-    <nav class="top-level-nav h-10 flex items-center" v-on-clickaway="closeNav">
-      <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="navIsOpen = !navIsOpen" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu />Menu</span><span class="flex flex-col justify-center items-center" v-else><Close />Close</span></button>
-      <ul class="flex items-center justify-around pointer-events-none bg-teal opacity-0 top-100 right-0 absolute w-fill sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end sm:bg-transparent" :class="{'opacity-100 pointer-events-auto text-white sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
+    <nav class="top-level-nav h-10 flex items-center">
+      <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="handleChange" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu /></span><span class="flex flex-col justify-center items-center text-black" v-else><Close /></span></button>
+      <ul class="flex flex-col items-center justify-around text-4xl font-bold pointer-events-none opacity-0 top-100 right-0 absolute w-fill sm:flex-row sm:text-base sm:font-normal sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end" :class="{'opacity-100 pointer-events-auto text-white sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
         <li v-for="(link, index) in nav" :key="link.index" @click="closeNav">
-          <g-link :to="link.url" class="sm:px-2 h-10 flex items-center relative" :active="$route.path.startsWith === `/${link.url}`" :data-link="link.text">{{ link.text }}</g-link>
+          <g-link :to="link.url" class="cursor-pointer py-6 sm:py-0 sm:px-2 sm:h-10 flex items-center relative" :active="$route.path.startsWith === `/${link.url}`" :data-link="link.text">{{ link.text }}</g-link>
         </li>
       </ul>
     </nav>
@@ -19,7 +19,6 @@ import navigation from '@/data/navigation'
 import Toggle from '@/components/ToggleColorMode'
 import Menu from '@/components/icons/Menu'
 import Close from '@/components/icons/Close'
-import { directive as onClickaway } from 'vue-clickaway';
 
 export default {
   name: 'Nav',
@@ -28,13 +27,15 @@ export default {
     Menu,
     Close,
   },
-  directives: {
-    onClickaway: onClickaway,
+  props: {
+    navIsOpen: {
+      type: Boolean,
+      default: false
+    }
   },
   data() {
     return{
       nav: navigation.mainNav.filter(it => it.inTopNav),
-      navIsOpen: false,
       isDarkMode: null,
     }
   },
@@ -52,15 +53,30 @@ export default {
       localStorage.setItem('isDark', this.isDarkMode)
     },
     closeNav() {
-      this.navIsOpen = false;
+      this.$emit('updateNav', false)
+    },
+    handleChange() {
+      this.$emit('updateNav', !this.navIsOpen)
     }
   },
 }
 </script>
 
 <style lang="scss" scoped>
+.top-level-nav ul {
+  @screen sm {
+    transition: opacity 0.2s ease-in;
+    .mobile-nav-open & {
+      transition: opacity 0.2s 0.2s ease-out;
+    }
+  }
+}
 .top-level-nav a.active {
-  color: var(--primary);
+  text-decoration: underline;
+  @screen sm {
+    color: var(--primary);
+    text-decoration: none;
+  }
 }
 .top-level-nav a, button.toggle{overflow: hidden;}
 .top-level-nav a::after, button.toggle::after {
@@ -84,6 +100,12 @@ button.toggle {
 }
 button.toggle:hover, button.toggle:focus {
   color: theme('colors.black');
+  &::after {
+    .mobile-nav-open & {
+      display: none;
+      content: '';
+    }
+  }
 }
 button.toggle:after {
   z-index: -1;
