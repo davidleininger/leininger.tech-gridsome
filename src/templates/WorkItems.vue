@@ -1,9 +1,11 @@
 <template>
-  <Layout class="list">
-    <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">{{ $page.work.title }}</h1>
-    <g-image :src="$page.work.img.src" :alt="`${$page.work.title} preview image`" />
-    <a :href="$page.work.source">{{ $page.work.source }}</a>
-    <article v-html="$page.work.content"/>
+  <Layout class="content-grid">
+    <article>
+      <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">{{ $page.work.title }}</h1>
+      <g-image :src="$page.work.img.src" :alt="`${$page.work.title} preview image`" />
+      <a :href="$page.work.source">{{ $page.work.source }}</a>
+      <div v-html="$page.work.content"/>
+    </article>
   </Layout>
 </template>
 
