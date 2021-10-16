@@ -1,8 +1,8 @@
 <template>
   <Layout class="content-grid">
     <article class="min-w-0">
-      <h1 class="text-black dark:text-white font-mono text-5xl mb-2">{{ $page.post.title }}</h1>
-      <p class="text-sm text-teal-dark dark:text-teal mb-8">{{ $page.post.date }} • {{ $page.post.timeToRead }} min</p>
+      <h1 class="text-black dark:text-white font-mono text-3xl sm:text-4xl md:text-5xl mb-2">{{ $page.post.title }}</h1>
+      <p class="text-sm text-teal-dark dark:text-teal mt-0 mb-8">{{ $page.post.date }} • {{ $page.post.timeToRead }} min</p>
       <div v-html="$page.post.content"/>
     </article>
     <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
