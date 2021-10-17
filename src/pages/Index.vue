@@ -25,9 +25,9 @@
             <img :src="item.node.thumbnail.src" :alt="`${item.node.title} preview.`" class="w-20 h-20 object-cover rounded" />
             <div>
               <g-link :to="item.node.path" class="group flex justify-between items-center font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ item.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:-translate-x-0 transition-transform duration-100" /></g-link>
-              <ul class="flex">
-                <li v-for="(tag, index) in item.node.tags" :key="index" class="text-purple-dark dark:text-teal m-0">
-                  <span v-if="index !== 0">, </span>{{tag}}
+              <ul class="flex flex-wrap">
+                <li v-for="(tag, index) in item.node.tags" :key="index" class="text-purple-dark dark:text-teal m-0 w-max">
+                  {{tag}}<span v-if="index !== item.node.tags.length - 1" class="mr-2">, </span>
                 </li>
               </ul>
             </div>
