@@ -1,9 +1,10 @@
 ---
 img: "./poster.jpg"
-order: 10
+order: 6
 title: Life Teen
 slug: life-teen
 source: https://lifeteen.com
+tags: [Branding, Design, Development]
 ---
 
 [LifeTeen.com](https://lifeteen.com) was rebuilt in April of 2015 for Life Teen's 30th anniversary. The website gets an average of 30,000 hits a day. Our CEO wanted to make sure that our site was constantly changing, [so I came up with ad blocks on the homepage to](https://google.com) trade out content on a regular basis, while featuring our events, resources, and products.

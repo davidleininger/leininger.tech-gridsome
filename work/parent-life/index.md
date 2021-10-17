@@ -1,9 +1,10 @@
 ---
 img: "./poster.jpg"
-order: 12
+order: 9
 title: Parent Life
 slug: parent-life
 source: http://ltparentlife.com
+tags: [Design, Development]
 ---
 
 Parent Life launched in April of 2017 as a way for Life Teen to reach parents who have teens in the program. There is general content on the site that anyone can access. When a parish subscribes to Life Teen, they get assigned a parish access code. Parents will then have access to premium content that will help them connect to what their teenagers experience in a Life Teen program. If a parish unsubscribes, the users lose access to the subscribed section of the site.

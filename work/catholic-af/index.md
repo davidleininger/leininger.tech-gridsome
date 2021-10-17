@@ -1,10 +1,11 @@
 ---
 img: "./poster.jpg"
+thumbnail: "./thumbnail.jpg"
 order: 1
 title: Catholic AF
 slug: catholic-af
 source: http://catholic.af
-tags: design, development, branding
+tags: [Branding, Design, Development]
 ---
 
 [Catholic.af](http://catholic.af) was rebuilt in April of 2015 for Life Teen's 30th anniversary. The website gets an average of 30,000 hits a day. Our CEO wanted to make sure that our site was constantly changing, so I came up with ad blocks on the homepage to trade out content on a regular basis, while featuring our events, resources, and products.

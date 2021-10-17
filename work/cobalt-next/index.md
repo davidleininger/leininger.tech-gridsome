@@ -1,8 +1,9 @@
 ---
 img: "./poster.jpg"
-order: 6
+order: 4
 title: Cobalt Next
 source: https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext
+tags: [Branding, Design, Development]
 ---
 
 The [LT goBooks App](https://itunes.apple.com/us/app/lt-gobooks/id965257982) is an iOS app that houses a libray of Life Teen's "Pocket Guides", seasonal companions, and small books. This gives our users the ability to carry a selection of Life Teen books with them wherever they go.

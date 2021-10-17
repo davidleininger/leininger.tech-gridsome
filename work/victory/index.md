@@ -1,16 +1,15 @@
 ---
 img: "./poster.jpg"
-order: 4
+thumbnail: "./thumbnail.jpg"
+order: 3
 title: The Victory App
 slug: victory
 source: http://thevictoryapp.com
-tags: design
+tags: [Branding, Design, Development]
 ---
 
-[The Victory App](http://thevictoryapp.com) was created to help people find freedom from addiction to pornography. Version 1 of the app is currently live, and in both the [Apple App Store](http://ltgo.co/victoryios) and the [Google Play Store](http://bit.ly/victoryandroid). Over the past year, I've been working hard on version 2, which will release early 2018.
-
-Version 2 has been completely reimagined from the ground up. It has a much cleaner and more user friendly UI, with many new features and customizations.
+[The Victory App](http://thevictoryapp.com) was created to help people find freedom from addiction to pornography. Version 1 helped a lot of people, but the app as a whole felt clunky and outdated. Version 2 was completely reimagined from the ground up. It has a much cleaner and more user friendly UI, with many new features and customizations. It is available for download in both the [Apple App Store](http://ltgo.co/victoryios) and the [Google Play Store](http://bit.ly/victoryandroid).
 
 ### My Contributions:
 
-The development of this app was outsourced, because of time contraints. I spearheaded the rest of the app, from concept to wireframing to design and prototyping using Adobe XD and Photoshop.
+The development of this app was primarily outsourced, because of time contraints. I spearheaded the rest of the app, from concept to wireframing to design and prototyping using Adobe XD and Photoshop. I helped with the branding this second version of the app and design language.

@@ -2,7 +2,7 @@
 img: "./poster.jpg"
 order: 7
 title: Showghi Engineering
-# source: dribbble
+tags: [Branding]
 ---
 
 The Classic Graphics website was revamped in 2014 in order to connect mailed marketing and digital materials. As users scroll down the homepage, they see the same items they recieved in the mail, connected to more information digitally.

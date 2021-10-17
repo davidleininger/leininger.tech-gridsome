@@ -1,8 +1,9 @@
 ---
 img: "./poster.jpg"
+thumbnail: "./thumbnail.jpg"
 order: 2
-title: St Andrew Youth Ministry
-# source: dribbble
+title: Simple Syllabus
+tags: [Design, Development]
 ---
 
 The Life Teen Store launched in January 2017 on Shopify. Starting with a pre-built template, and I customized it to fit our unique needs and be cohesive with our main site design. I created a tabbed/accordian solution using meta-data to display content for a better user experience while browsing products.
