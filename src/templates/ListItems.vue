@@ -52,14 +52,14 @@ article /deep/ {
   }
   ol li::before {
     content: counter(list_counter);
-    color: var(--accent-dark);
+    color: var(--accent);
     font-family: theme('fontFamily.mono');
     font-variant-numeric: tabular-nums;
     margin-right: 1.5rem;
   }
   ul li::before {
     content: '•';
-    color: var(--accent-dark);
+    color: var(--accent);
     font-family: theme('fontFamily.mono');
     font-variant-numeric: tabular-nums;
     margin-right: 1.5rem;

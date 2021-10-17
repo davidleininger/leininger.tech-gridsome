@@ -5,7 +5,7 @@
 
     <ul>
       <li v-for="post in $page.posts.edges" :key="post.node.id" class="border-b border-teal-dark dark:border-teal hover:border-b-3 py-6">
-        <g-link :to="post.node.path" class="group flex justify-between font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ post.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:translate-x-0 transition-transform duration-200" /></g-link>
+        <g-link :to="post.node.path" class="group flex justify-between font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ post.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:translate-x-0 transition-transform duration-100" /></g-link>
         <p class="text-teal-dark dark:text-teal m-0">{{ post.node.date }}<span v-if="post.node.TILIndex" class="text-purple-dark dark:text-yellow"> • TIL #{{ post.node.TILIndex }}</span></p>
       </li>
     </ul>
