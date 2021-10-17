@@ -20,7 +20,7 @@ module.exports = {
         'black-light': '#1b2b34',
         blue: '#5a9bcf',
         teal: '#5fb3b3',
-        'teal-dark': '#1A8384',
+        'teal-dark': '#00999B',
         grey: '#d8dee9',
         'grey-light': '#f4f6f9',
         'grey-dark': '#c2c7d0',
@@ -28,8 +28,8 @@ module.exports = {
         'grey-darkest': '#343d46',
         'red-light': '#ed6f7d',
         red: '#b3545e',
-        purple: '#c5a5c5',
-        'purple-dark': '#a979a9',
+        purple: '#A78BFA',
+        'purple-dark': '#8B5CF6',
         yellow: '#fac863',
         'yellow-dark': '#d68232',
         white: '#fff',
@@ -76,7 +76,9 @@ module.exports = {
   },
   variants: {
     extend: {
-      margin: ['last'],
+      margin: ['first', 'last'],
+      padding: ['first'],
+      translate: ['active', 'group-hover'],
     }
   },
   plugins: [],
