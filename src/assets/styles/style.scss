@@ -37,8 +37,8 @@
   --bg: theme('colors.white');
   --primary: theme('colors.teal-dark');
   --alt: theme('colors.teal');
-  --accent: theme('colors.purple-dark');
-  --accent-dark: theme('colors.purple');
+  --accent: theme('colors.purple');
+  --accent-dark: theme('colors.purple-dark');
   --hover: theme('colors.purple-dark');
   --subtle: theme('colors.grey');
 }
@@ -86,7 +86,7 @@ p{
   position: relative;
 }
 .strike::after, s::after {
-  background: var(--alt);
+  background: var(--accent-dark);
   content: '';
   height: 3px;
   left: 0;
@@ -94,7 +94,7 @@ p{
   top: 50%;
   width: 100%;
 }
-.content:not(.list) a:not(.ldt-btn), main nav a {
+.content:not(.list):not(.landing) a:not(.ldt-btn), main nav a {
   backface-visibility: visible;
   box-shadow: inset 0 -6px 0px -0px var(--subtle);
   color: var(--primary);
@@ -170,7 +170,7 @@ article h2 {
   backface-visibility: hidden;
 }
 .logo::before {
-  background: linear-gradient(to bottom, #c5a5c5 50px, #c3a3c3, #bf9cbf, #ba94ba, #b48ab4, #af82af, #ab7bab, #a979a9);
+  background: linear-gradient(to bottom, #a78bfa 50px, #a385fa, #9f7ef9, #9b77f9, #9771f8, #936af8, #8f63f7, #8b5cf6);
   z-index: -2;
 }
 .dark .logo::before {
