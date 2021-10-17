@@ -13,7 +13,7 @@
         <h3 class="text-sm text-teal-dark dark:text-teal font-mono">Somewhat Recent Words</h3>
         <ul>
           <li v-for="post in $page.posts.edges" :key="post.node.id" class="border-b border-teal-dark dark:border-teal hover:border-b-3 py-6 first:py-3">
-            <g-link :to="post.node.path" class="group flex justify-between font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ post.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:translate-x-0 transition-transform duration-100" /></g-link>
+            <g-link :to="post.node.path" class="group flex justify-between items-center font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ post.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:translate-x-0 transition-transform duration-100" /></g-link>
             <p class="text-teal-dark dark:text-teal m-0">{{ post.node.date }}<span v-if="post.node.TILIndex" class="text-purple-dark dark:text-yellow"> • TIL #{{ post.node.TILIndex }}</span></p>
           </li>
         </ul>
@@ -24,7 +24,7 @@
           <li class="flex gap-6 py-3 first:pt-3" v-for="item in $page.workItems.edges" :key="item.node.id">
             <img :src="item.node.thumbnail.src" :alt="`${item.node.title} preview.`" class="w-20 h-20 object-cover rounded" />
             <div>
-              <g-link :to="item.node.path" class="group flex justify-between font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ item.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:translate-x-0 transition-transform duration-100" /></g-link>
+              <g-link :to="item.node.path" class="group flex justify-between items-center font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ item.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:-translate-x-0 transition-transform duration-100" /></g-link>
               <ul class="flex">
                 <li v-for="(tag, index) in item.node.tags" :key="index" class="text-purple-dark dark:text-teal m-0">
                   <span v-if="index !== 0">, </span>{{tag}}
