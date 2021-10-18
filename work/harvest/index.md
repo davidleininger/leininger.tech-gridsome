@@ -1,15 +1,11 @@
 ---
-img: "./poster.jpg"
+img: "./harvest-poster.jpg"
 order: 8
 title: Harvest Speed & Strength
 source: https://www.instagram.com/p/B3-jSxCBAoL/
 tags: [Branding]
 ---
 
-[Catholic.af](http://catholic.af) was rebuilt in April of 2015 for Life Teen's 30th anniversary. The website gets an average of 30,000 hits a day. Our CEO wanted to make sure that our site was constantly changing, so I came up with ad blocks on the homepage to trade out content on a regular basis, while featuring our events, resources, and products.
+To be completely honest, I started the Harvest Speed & Strength logo as a favor to my brother. I didn't have a lot of expectations for how the logo would be used. At the time, Harvest Speed and Strength was an in-home gym, and there was just a flag on the way.
 
-One of the biggest challenges with this site was the navigation. With so many different types of users, I created a mega menu that would allow the user quick access to whatever they might be looking for.
-
-### My Contributions:
-
-Logo Design. Designed in Sktech. Prototyped with Invision. Built with Wordpress, ACF, Foundation, and Sass.
+A few years later, and I'm blown away by how everything came together. The picture above is from [their new gym in San Antonio, TX](https://www.instagram.com/p/B3-jSxCBAoL/), and I love seeing how they are using the brand. I'm just grateful to help make a difference for this gym, while it's making a difference for others.
