@@ -51,7 +51,7 @@
             :has-errors="hasErrors"
             label="Message"
             name="message"
-            placeholder="you@probablygmail.com"
+            placeholder="Words written by you that I’ll read"
             :required="true"
             class="flex-1"
           />
