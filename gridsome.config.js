@@ -11,14 +11,6 @@ module.exports = {
     siteName: 'leininger.tech',
     plugins: [
       {
-        use: 'gridsome-plugin-gtm',
-        options: {
-          id: 'GTM-M3QVWR3',
-          enabled: true,
-          debug: true
-        }
-      },
-      {
         use: '@gridsome/source-filesystem',
         options: {
           path: 'work/**/*.md',
