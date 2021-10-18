@@ -4603,8 +4603,8 @@ gray-matter@^4.0.2:
 
 gridsome-plugin-gtm@^0.1.1:
   version "0.1.1"
-  resolved "https://artifactory.wwt.com/artifactory/api/npm/npm/gridsome-plugin-gtm/-/gridsome-plugin-gtm-0.1.1.tgz#9359b961a806c861d91ba056e5e117fe240219eb"
-  integrity sha1-k1m5YagGyGHZG6BW5eEX/iQCGes=
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-gtm/-/gridsome-plugin-gtm-0.1.1.tgz#9359b961a806c861d91ba056e5e117fe240219eb"
+  integrity sha512-74lUgH6QHUNPS3Ahz1CAx9RbKidMebaU6S7XCXtpVJn6lAc8Azep1Dkjf/oGdP7x5Ll7vPmZmVTbNlXlPKETjQ==
   dependencies:
     vue-gtm "^2.0.0"
 
