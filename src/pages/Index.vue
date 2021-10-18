@@ -22,7 +22,7 @@
         <h3 class="text-sm text-teal-dark dark:text-teal font-mono">Featured Work</h3>
         <ul>
           <li class="flex gap-6 py-3 first:pt-3" v-for="item in $page.workItems.edges" :key="item.node.id">
-            <img :src="item.node.thumbnail.src" :alt="`${item.node.title} preview.`" class="w-20 h-20 object-cover rounded" />
+            <img :src="item.node.thumbnail.src" :alt="`${item.node.title} preview.`" class="w-16 h-16 xs:w-20 xs:h-20 object-cover rounded" />
             <div>
               <g-link :to="item.node.path" class="group flex justify-between items-center font-mono text-black hover:text-purple-dark focus:text-purple-dark dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl sm:text-2xl">{{ item.node.title }} <Angle class=" h-6 w-6 opacity-0 group-hover:opacity-100 transform -translate-x-1/2 group-hover:-translate-x-0 transition-transform duration-100" /></g-link>
               <ul class="flex flex-wrap">
