@@ -1,15 +1,19 @@
 ---
-img: "./poster.jpg"
+img: "./twobeards-poster.jpg"
 order: 4
 title: Two Beards
 source: https://twobeards.dev
 tags: [Branding]
 ---
 
-[Catholic.af](http://catholic.af) was rebuilt in April of 2015 for Life Teen's 30th anniversary. The website gets an average of 30,000 hits a day. Our CEO wanted to make sure that our site was constantly changing, so I came up with ad blocks on the homepage to trade out content on a regular basis, while featuring our events, resources, and products.
+My buddy [Mike McBride](https://mikemcbride.dev) and I really enjoy working together, so we made a little side gig. Naturally, there are two of us and we both have beards, so we landed on [Two Beards](https://twobeards.dev). Right now, we've got a few [development helper](https://flexbox.tech/) [apps](https://box-shadow.dev/) out there, and we're working on some more.
 
-One of the biggest challenges with this site was the navigation. With so many different types of users, I created a mega menu that would allow the user quick access to whatever they might be looking for.
+We have a few ideas for some products that we'll hopefully be launching in the next year or so... Between our two families, we have a lot of *young* kids so our timeline keeps getting extended. That doesn't me we aren't excited.
 
-### My Contributions:
+We are also open to doing freelance work, but it really had to be something we believe in. Our time is extremely valuable. That said, we can do everything from design to development. You want design, we can do that. You need development, we can do that. You want to order us a pizza, we can eat that. We are here to serve you.
 
-Logo Design. Designed in Sktech. Prototyped with Invision. Built with Wordpress, ACF, Foundation, and Sass.
+## Finding Two Beards
+We're working on a [website](https://twobeards.dev) now to have a landing page for all of our work. More coming soon.
+
+## Alternate Logo Versions
+![.Alternate Two Beards Logos](./2b-alternates.jpg)

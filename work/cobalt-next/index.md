@@ -1,15 +1,21 @@
 ---
-img: "./poster.jpg"
-order: 4
+img: "./cbn-poster.jpg"
+thumbnail: "./thumbnail.jpg"
+order: 3
 title: Cobalt Next
 source: https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext
-tags: [Branding, Design, Development]
+tags: [Branding, Development]
 ---
 
-The [LT goBooks App](https://itunes.apple.com/us/app/lt-gobooks/id965257982) is an iOS app that houses a libray of Life Teen's "Pocket Guides", seasonal companions, and small books. This gives our users the ability to carry a selection of Life Teen books with them wherever they go.
+I believe that my code editor, terminal, and a slew of other mac applications can help increase my productivity and enjoyment in doing what I do. I've spent a lot of time – probably more than I actually want to think about – making and maintaining Cobalt next.
 
-Using the WordPress API, Life Teen can create new books that automatically get submitted to the goBooks store without submitting a new build to the App Store.
+> Time is a huge factor in staying productive. Your editor is the one tool you spend most of yours in and you should invest in optimizing your workflow skills. You'll benefit from them everyday. Wes has some of the best insights in workflow of anyone I know.
+>
+> – [Addy Osmani](https://twitter.com/addyosmani)
 
-### My Contributions:
+To me, it's time well spent. One of the reasons that I love apple – and have for a long time – is that everything on a mac or iPhone looks like it belongs. Consistency is key, and I wanted to make sure I set up that same level of consistency for me. Making my tools work for me helps me to use them better.
 
-App Icon Design. Designed in Sktech. Prototyped with Invision. Content API built with Wordpress and ACF.
+I've got [Cobalt Next](https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext) for [VS Code](https://marketplace.visualstudio.com/items?itemName=dline.CobaltNext), [Hyper](https://www.npmjs.com/package/hyper-cobalt-next) ([dark version](https://www.npmjs.com/package/hyper-cobalt-next-dark)), Alfred, [Insomnia](https://github.com/mikemcbride/insomnia-plugin-extra-themes), and others I've forgotten since I'm so used to it now.
+
+## My Contributions:
+So much time and so much JSON.

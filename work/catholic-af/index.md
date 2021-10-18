@@ -1,17 +1,26 @@
 ---
-img: "./poster.jpg"
+img: "./caf-poster.jpg"
 thumbnail: "./thumbnail.jpg"
 order: 1
 title: Catholic AF
 slug: catholic-af
-source: http://catholic.af
+# source: http://catholic.af
 tags: [Branding, Design, Development]
 ---
 
-[Catholic.af](http://catholic.af) was rebuilt in April of 2015 for Life Teen's 30th anniversary. The website gets an average of 30,000 hits a day. Our CEO wanted to make sure that our site was constantly changing, so I came up with ad blocks on the homepage to trade out content on a regular basis, while featuring our events, resources, and products.
+Catholic.af was a pet project between me and [Mike McBride](https://mikemcbride.dev), but sadly, it's dead now. It all started because we found `.af` domain names, and then the fun began. The goal was to create a space for Catholic creators to have a space to show off their work and contribute to Catholic charities. Essentially, we sell the good, recoup the cost, pay the designer, and donate the rest.
 
-One of the biggest challenges with this site was the navigation. With so many different types of users, I created a mega menu that would allow the user quick access to whatever they might be looking for.
+Catholic.af was a design and development playground and an experiment in Catholic culture. The first was a blast, but the second turned out basically as expected – hence why it isn't around anymore.
 
-### My Contributions:
+Both Mike and I are developers and we're always looking for a place to play around, make something cool, and have a little fun while we're at it. One of my favorite parts of the site was the hover effect on the main landing page:
 
-Logo Design. Designed in Sktech. Prototyped with Invision. Built with Wordpress, ACF, Foundation, and Sass.
+<iframe height="500" style="width: 100%;" scrolling="no" title="Hover Effect: Pop and Background Animate" src="https://codepen.io/davidleininger/embed/mKrroW?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/davidleininger/pen/mKrroW">
+  Hover Effect: Pop and Background Animate</a> by David Leininger (<a href="https://codepen.io/davidleininger">@davidleininger</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+In the end, it was a lot of fun, and I'm glad we did it. I wish people would be a little more open to taking a joke, but there's nothing I can do about that - maybe it's my fault for tiptoeing up to the line... We've still got a few shirts and some stickers left, [hit me up](/contact) if you want one.
+
+## My Contributions:
+Logo/Branding Design. Website and Email Design. Apparel and Sticker Design. Development.

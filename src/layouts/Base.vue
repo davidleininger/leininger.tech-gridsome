@@ -5,7 +5,7 @@
         <Logo @click.native="navIsOpen = false" />
         <Nav :nav-is-open="navIsOpen" @updateNav="handleNavChange" />
       </header>
-      <div id="main-wrapper" class="text-grey-darkest dark:text-grey p-4 md:p-8 xl:p-12 w-full">
+      <div id="main-wrapper" class="text-grey-darkest dark:text-grey p-6 md:p-8 xl:p-12 w-full">
         <slot/>
       </div>
     <Footer />

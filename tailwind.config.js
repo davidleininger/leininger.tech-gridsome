@@ -76,6 +76,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      borderWidth: ['dark'],
       margin: ['first', 'last'],
       padding: ['first'],
       translate: ['active', 'group-hover'],

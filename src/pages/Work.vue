@@ -7,10 +7,15 @@
       <button>Design</button>
       <button>Development</button> -->
     </header>
-    <ul class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4">
+    <ul class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-6">
       <li v-for="item in $page.work.edges" :key="item.node.id">
         <g-link :to="item.node.path" class="group flex flex-col justify-between font-mono text-black hover:text-purple-dark focus:text-purple dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl">
-        <g-image :src="item.node.img.src" :alt="`${$page.work.title} preview image`" class="mb-2" />{{ item.node.title }}</g-link>
+        <g-image :src="item.node.img.src" :alt="`${$page.work.title} preview image`" class="border border-grey-light dark:border-0 mb-2" />{{ item.node.title }}</g-link>
+        <ul class="flex flex-wrap">
+          <li v-for="(tag, index) in item.node.tags" :key="index" class="text-sm text-purple-dark dark:text-teal m-0 w-max">
+            {{tag}}<span v-if="index !== item.node.tags.length - 1" class="mr-1">, </span>
+          </li>
+        </ul>
       </li>
     </ul>
   </Layout>
@@ -30,6 +35,7 @@ query {
         path
         order
         img
+        tags
       }
     }
   }
@@ -44,3 +50,13 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+li {
+  transition: transform 0.1s ease-in;
+  &:hover {
+    transform: scale(1.075);
+    transition: transform 0.1s ease-out;
+  }
+}
+</style>
