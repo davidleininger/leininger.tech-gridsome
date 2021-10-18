@@ -5,7 +5,7 @@
       <p>Just like everyone else, this was inspired by <a href="https://wesbos.com/uses">Wes Bos</a>. These are things I use on a daily basis that make my life better, easier, or opinionated. You probably don’t really care, but I bet I’ve got a trick or two you don’t know about...</p>
       <h2>Dev Stuff</h2>
       <h3>VS Code</h3>
-      <p>VS Code is the editor where I sling code. I’ve been a pretty big from since... a while now. I liked VS Code before, but I like it so much more after going through Caleb Porzio’s Make VS Code Awesome course.</p>
+      <p>VS Code is the editor where I sling code. I’ve been a pretty big from since... a while now. I liked VS Code before, but I like it so much more after going through <a href="https://twitter.com/calebporzio">Caleb Porzio’s</a> <a href="https://makevscodeawesome.com/">Make VS Code Awesome</a> course.</p>
       <h3>Hyper</h3>
       <p>Hyper is my go to terminal when I’m not inside of VS Code. Usually, I just use hyper to start up new projects and then pop into VS Code.</p>
       <h3>Cobalt Next</h3>
