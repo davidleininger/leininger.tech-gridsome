@@ -1,8 +1,8 @@
 <template>
   <Layout class="two-col">
-    <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">About Me</h1>
     <section class="flex flex-col md:flex-row items-start">
       <div class="w-full md:w-3/5 lg:w-2/3 mb-4 md:pr-8 lg:pr-12">
+        <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">About Me</h1>
         <h2 class="text-3xl text-teal-dark dark:text-teal font-mono">David Leininger</h2>
         <p>
           I like to consider myself a professional nerd. My brain is constantly torn between creativity and logic. I love finding examples of good UI and will dev-splain how to fix bad UI to anyone within earshot.
