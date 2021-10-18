@@ -46,7 +46,7 @@ query {
 export default {
   name: 'Work-Page',
   metaInfo: {
-    title: 'Work'
+    title: 'work'
   },
 }
 </script>

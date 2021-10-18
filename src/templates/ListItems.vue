@@ -33,7 +33,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.list.pageTitle,
+      title: this.$page.list.title.toLowerCase(),
     }
   }
 }

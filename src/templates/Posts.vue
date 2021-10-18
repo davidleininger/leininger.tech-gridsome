@@ -32,6 +32,11 @@ export default {
   name: 'Post-Details',
   components: {
     ButtonLink,
+  },
+  metaInfo() {
+    return {
+      title: this.$page.post.title.toLowerCase(),
+    }
   }
 }
 </script>

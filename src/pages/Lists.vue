@@ -34,7 +34,7 @@ import Angle from '~/components/icons/Angle.vue'
 export default {
   name: 'List-Page',
   metaInfo: {
-    title: 'lists | leininger.tech'
+    title: 'lists'
   },
   components: {
     Angle

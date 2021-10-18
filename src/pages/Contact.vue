@@ -79,7 +79,7 @@ export default {
     BaseTextarea
   },
   metaInfo: {
-    title: 'Contact'
+    title: 'contact'
   },
   data() {
     return {

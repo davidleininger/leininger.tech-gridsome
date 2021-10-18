@@ -43,7 +43,10 @@ import Angle from '~/components/icons/Angle.vue'
 export default {
   components: {
     Angle
-  }
+  },
+  metaInfo: {
+    title: 'hello'
+  },
 }
 </script>
 

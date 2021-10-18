@@ -33,7 +33,12 @@ query Page ($path: String!) {
 import ButtonLink from '../components/ButtonLink.vue'
 export default {
   name: 'Work-Details',
-components: { ButtonLink },
+  metaInfo() {
+    return {
+      title: this.$page.work.title.toLowerCase(),
+    }
+  },
+  components: { ButtonLink },
 }
 </script>
 

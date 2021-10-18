@@ -48,7 +48,7 @@ import { Pager } from 'gridsome'
 export default {
   name: 'TIL',
   metaInfo: {
-    title: 'Today I Learned'
+    title: 'today i learned'
   },
   components: {
     Pager,
