@@ -143,7 +143,7 @@ ol.demo-list li::before {
 }
 </style>
 
-There we go, a reversed list, with custom styles that should work for any starting point. I'm pretty happy with where we ended.
+There we go. A reversed list with custom styles that should work from any starting point. I'm pretty happy with where we ended.
 
 ## Helpful Sources
 1. [CSS Tricks](https://css-tricks.com/how-to-reverse-css-custom-counters/): How to Reverse CSS Custom Counters
