@@ -3,7 +3,7 @@
     <article>
       <h1 class="text-black dark:text-white text-4xl sm:text-5xl font-mono mb-2 md:pr-4">{{ $page.list.title }}</h1>
       <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
-      <div class="mt-12" v-html="$page.list.content"/>
+      <div class="mt-12" :class="{'reversed': $page.list.reversed}" :style="`--list-reset: ${$page.list.counterReset}`" v-html="$page.list.content"/>
     </article>
     <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
       <ButtonLink link="/lists" class="flex-1 md:flex-none">Back To List</ButtonLink>
@@ -19,6 +19,8 @@ query Page ($path: String!) {
     date(format: "MMMM DD, YYYY")
     content
     path
+    counterReset
+    reversed
   }
 }
 </page-query>
@@ -43,12 +45,15 @@ export default {
 article /deep/ {
   ol {
     list-style: none;
-    counter-reset: list_counter;
+    counter-reset: list_counter var(--list-reset, 0);
   }
   ol li {
     align-items: baseline;
     display: flex;
     counter-increment: list_counter;
+  }
+  .reversed ol li {
+    counter-increment: list_counter -1;
   }
   ol li::before {
     content: counter(list_counter);
