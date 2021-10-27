@@ -9,9 +9,14 @@ module.exports = {
       './src/**/*.js',
       './src/**/*.md'
     ],
-    options: {
-      whitelist: [],
-    },
+    safelist: [
+      'list-inside',
+      'list-decimal',
+      'grid',
+      'grid-cols-1',
+      'md:grid-cols-2',
+      'md:gap-6'
+    ]
   },
   theme: {
     extend: {
