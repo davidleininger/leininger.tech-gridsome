@@ -77,16 +77,18 @@ p{
   }
 }
 ::selection {
-  background: rgba(197, 165, 197, .5);
+  background: rgba(197, 165, 197, .99);
+  color: theme('colors.black');
   .dark & {
-    background: rgba(95, 179, 179, .25);
+    background: rgba(250, 200, 99, .99);
+    color: theme('colors.black');
   }
 }
 .strike, s {
   position: relative;
 }
 .strike::after, s::after {
-  background: var(--accent-dark);
+  background: var(--accent);
   content: '';
   height: 3px;
   left: 0;
@@ -124,16 +126,23 @@ a:focus, button:focus {
   outline: 2px var(--primary) dotted;
   outline-offset: 2px;
 }
-article h2 {
-  color: var(--primary);
-  font-size: 1.5rem;
-  font-family: theme('fontFamily.mono');
-  margin-top: 2.5rem;
-  position: relative;
-  a {
-    display: none;
-    position: absolute;
-    right: 100%;
+article {
+  h2, h3 {
+    color: var(--primary);
+    font-family: theme('fontFamily.mono');
+    margin-top: 1.5em;
+    position: relative;
+    a {
+      display: none;
+      position: absolute;
+      right: 100%;
+    }
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
   }
 }
 
@@ -313,7 +322,7 @@ article h2 {
 pre[class*="language-"],
 code[class*="language-"] {
   color: var(--foreground);
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   text-shadow: none;
   font-family: 'Cartograph', Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   direction: ltr;
@@ -345,8 +354,8 @@ code[class*="language-"]::mozselection {
 }
 pre[class*="language-"] {
   background: var(--code-bg);
-  border-left: 4px solid var(--primary);
-  margin: 0.5em 0;
+  border-left: 8px solid var(--primary);
+  margin: 1em 0;
   overflow: auto;
   padding: 1em;
 }
