@@ -5,7 +5,7 @@ date: 2021-10-25
 
 So I've got this whole [lists](/lists) section of the site where I list all of my opinions about things like the best sodas, broadway shows, pizzas in STL, and wives. Spoiler alert the last one is only one item.
 
-Fast forward to Halloween, and I realized that I needed to add a new list, a list of our family Halloween Costumes. This list needed to be grouped by year and starting from the most recent year and going down.
+Fast forward to Halloween, and I realized that I needed to add a new list, a list of our family [Halloween Costumes](/lists/halloween). This list needed to be grouped by year and starting from the most recent year and going down.
 
 So there's the problem: an ordered list, that starts as the "current" year, and counts down.
 
