@@ -44,7 +44,7 @@ _Oh, and before we get started. One rule we have is that every kid's fist Hallow
   </div>
 2018. <div class="flex flex-col">
     <div>
-      Rubby Ducky <span class="description">Featuring a rubber ducky, a loofa, and a shower.</span>
+      Rubber Ducky <span class="description">Featuring a rubber ducky, a loofa, and a shower.</span>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6">
 
@@ -66,14 +66,14 @@ _Oh, and before we get started. One rule we have is that every kid's fist Hallow
   </div>
 2016. <div class="flex flex-col">
     <div>
-      Burger King and Diary Queen
+      Burger King and Dairy Queen <span class="description">We are fast food royalty</span>
     </div>
 
     ![Burger King and Diary Queen family halloween costume 2016.](./2016.jpg)
   </div>
 2015. <div class="flex flex-col">
     <div>
-      Brany Man and Paper Towels
+      Brany Man and Paper Towels <span class="description">Don't tell anyone, but this is exactly what I work to work that day.</span>
     </div>
 
     ![Brany Man family halloween costume 2015.](./2015.jpg)
