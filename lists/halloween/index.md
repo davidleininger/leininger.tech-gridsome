@@ -73,7 +73,7 @@ _Oh, and before we get started. One rule we have is that every kid's fist Hallow
   </div>
 2015. <div class="flex flex-col">
     <div>
-      Brawny Man and Paper Towels <span class="description">Don't tell anyone, but this is exactly what I work to work that day.</span>
+      Brawny Man and Paper Towels <span class="description">Don't tell anyone, but this is exactly what I wore to work that day.</span>
     </div>
 
     ![Brawny Man family halloween costume 2015.](./2015.jpg)
