@@ -9,7 +9,7 @@
         </p>
 
         <p>
-          I am a <span class="strike">Senior Developer</span> Manager at <a href="https://wwt.com">World Wide Technology</a>, where I help design and build websites and apps. When I'm not at work, I volunteer with the live streaming at church, and I help run production at several Catholic youth conferences around the country. I live in St. Louis with my amazing wife and <span class="strike">daughter</span>&nbsp;<span class="strike">two</span> three daughters. They are all too good for me, but slum it with me because I’m funny and an average cook. #girdad
+          I am a <span class="strike">Senior Developer</span> Manager at <a href="https://wwt.com">World Wide Technology</a>, where I help design and build websites and apps. When I'm not at work, I volunteer with the live streaming at church, and I help run production at several Catholic youth conferences around the country. I live in St. Louis with my amazing wife and <span class="strike">daughter</span>&nbsp;<span class="strike">two</span> three daughters. They are all too good for me, but slum it with me because I’m funny, I have power tools, and I'm an average cook. #girdad
         </p>
 
         <h2 class="text-2xl mt-8 text-teal-dark dark:text-teal font-mono">
