@@ -1,12 +1,12 @@
 <template>
   <Layout class="landing list">
-    <header class="flex">
+    <div class="flex">
       <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">Work</h1>
       <!-- <button>All</button>
       <button>Branding</button>
       <button>Design</button>
       <button>Development</button> -->
-    </header>
+    </div>
     <ul class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-6">
       <li v-for="item in $page.work.edges" :key="item.node.id">
         <g-link :to="item.node.path" class="group flex flex-col justify-between font-mono text-black hover:text-purple-dark focus:text-purple dark:text-white dark:hover:text-yellow dark:focus:text-yellow text-xl">
