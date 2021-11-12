@@ -9,7 +9,7 @@
       </ul>
     </nav>
     <button @click="changeMode" class="toggle flex justify-center items-center h-10 w-10 flex-shrink-0 relative" aria-label="Color Mode Toggle">
-      <Toggle v-if="isDarkMode != null" :is-dark="isDarkMode" />
+      <Toggle v-if="isDarkMode != null" :is-dark="isDarkMode" :aria-selected="isDarkMode" />
     </button>
   </section>
 </template>
