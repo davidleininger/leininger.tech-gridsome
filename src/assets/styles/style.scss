@@ -64,6 +64,19 @@ a, button {
 p{
   margin: 1rem 0;
 }
+.skip-to-content{
+  background: var(--bg);
+  color: var(--base);
+  opacity: 0;
+  padding: 0.25rem 0.5rem;
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+  &:focus {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
 .page{
   background: theme('colors.white');
   .dark & {background: theme('colors.black');}
