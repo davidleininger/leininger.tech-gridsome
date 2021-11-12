@@ -1,5 +1,5 @@
 <template>
-  <Layout class="landing">
+  <Layout id="main-content" class="landing">
     <section class="flex items-center isolate w-full mt-12 sm:mt-32 mb-12 max-w-5xl mx-auto">
       <div class="flex flex-col justify-center w-full">
         <h1 class="text-4xl sm:text-5xl text-black dark:text-white font-bold font-mono mb-4">Hello, I'm <div class="look-at-me relative mr-8">David</div><div class="say-my-name relative" tabindex="0">Leininger</div>.</h1>
