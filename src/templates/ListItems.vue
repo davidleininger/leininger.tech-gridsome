@@ -5,9 +5,9 @@
       <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
       <div class="mt-12" :class="{'reversed': $page.list.reversed}" :style="`--list-reset: ${$page.list.counterReset}`" v-html="$page.list.content"/>
     </article>
-    <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
+    <ButtonGroup>
       <ButtonLink link="/lists" class="flex-1 md:flex-none">Back To List</ButtonLink>
-    </div>
+    </ButtonGroup>
   </Layout>
 </template>
 
@@ -27,13 +27,16 @@ query Page ($path: String!) {
 
 <script>
 import ButtonLink from '~/components/ButtonLink.vue'
+import ButtonGroup from '../components/ButtonGroup.vue'
 
 export default {
   name: 'Post-Details',
   components: {
     ButtonLink,
+    ButtonGroup
   },
   metaInfo() {
+    ButtonGroup
     return {
       title: this.$page.list.title.toLowerCase(),
     }

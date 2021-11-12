@@ -10,9 +10,9 @@
       <g-image :src="$page.work.img.src" :alt="`${$page.work.title} preview image`" class="border border-grey-light dark:border-0 mb-6" />
       <div v-html="$page.work.content"/>
     </article>
-    <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
+    <ButtonGroup>
       <ButtonLink link="/work">Back to Work</ButtonLink>
-    </div>
+    </ButtonGroup>
   </Layout>
 </template>
 
@@ -31,6 +31,7 @@ query Page ($path: String!) {
 
 <script>
 import ButtonLink from '../components/ButtonLink.vue'
+import ButtonGroup from '../components/ButtonGroup.vue'
 export default {
   name: 'Work-Details',
   metaInfo() {
@@ -38,7 +39,7 @@ export default {
       title: this.$page.work.title.toLowerCase(),
     }
   },
-  components: { ButtonLink },
+  components: { ButtonLink, ButtonGroup },
 }
 </script>
 

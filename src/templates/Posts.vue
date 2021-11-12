@@ -5,10 +5,10 @@
       <p class="text-sm text-teal-dark dark:text-teal mt-0 mb-8">{{ $page.post.date }} • {{ $page.post.timeToRead }} min</p>
       <div v-html="$page.post.content"/>
     </article>
-    <div class="btn-group mt-8 md:mt-0 gap-6 flex flex-col xs:flex-row md:flex-col md:items-end">
-      <ButtonLink link="/words" class="flex-1 md:flex-none">Back To Words</ButtonLink>
-      <ButtonLink v-if="$page.post.TILIndex" link="/til" class="flex-1 md:flex-none">Back To TIL</ButtonLink>
-    </div>
+    <ButtonGroup>
+        <ButtonLink link="/words" class="flex-1 md:flex-none">Back To Words</ButtonLink>
+        <ButtonLink v-if="$page.post.TILIndex" link="/til" class="flex-1 md:flex-none">Back To TIL</ButtonLink>
+      </ButtonGroup>
   </Layout>
 </template>
 
@@ -28,10 +28,12 @@ query Page ($path: String!) {
 
 <script>
 import ButtonLink from '~/components/ButtonLink.vue'
+import ButtonGroup from '~/components/ButtonGroup.vue'
 export default {
   name: 'Post-Details',
   components: {
     ButtonLink,
+    ButtonGroup
   },
   metaInfo() {
     return {

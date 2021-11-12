@@ -225,9 +225,14 @@ article {
   article {
     grid-area: body;
   }
-  .btn-group {
+  .btn-group-wrapper {
     grid-area: btns;
+  }
+  .btn-group {
     @screen md{
+      position: sticky;
+      top:2rem;
+
       * {
         width: max-content;
       }
@@ -279,11 +284,17 @@ article {
       left: 0;
       transform-origin: top left;
     }
-    &:hover {
+    &:hover, &:focus {
       transform: translate(0, 0);
       &::before, &::after {
         transform: scale(0);
       }
+    }
+  }
+  &:focus div{
+    transform: translate(0, 0);
+    &::before, &::after {
+      transform: scale(0);
     }
   }
 }
