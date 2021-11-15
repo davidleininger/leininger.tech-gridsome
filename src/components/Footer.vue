@@ -6,7 +6,7 @@
       </a>
     </nav>
     <div class="flex flex-col xs:flex-row items-center mt-4 sm:mt-0 w-full xs:w-auto">
-      <nav class="flex xs:mr-4 mb-3 xs:mb-0 justify-center xs:justify-start border-t border-b border-gray dark:border-black xs:border-b-0 xs:border-t-0 w-full xs:w-auto" aria-label="Secondary Navigation">
+      <nav class="flex xs:mr-4 mb-3 xs:mb-0 justify-center xs:justify-start border-t border-b border-gray dark:border-black xs:border-b-0 xs:border-t-0 w-full xs:w-auto" aria-label="Secondary">
         <g-link v-for="(link, index) in nav" :key="link.index" :to="link.url" class="px-2 h-10 flex items-center relative hover:text-teal-dark dark:hover:text-teal">{{ link.text }}</g-link>
       </nav>
       <p class="m-0">&copy; David Leininger {{ year }}</p>
