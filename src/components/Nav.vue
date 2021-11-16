@@ -3,7 +3,7 @@
     <nav class="h-10 w-full flex items-center">
       <Logo @click.native="navIsOpen = false" class="mr-auto" />
       <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="handleChange" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu /></span><span class="flex flex-col justify-center items-center text-black" v-else><Close /></span></button>
-      <ul class="top-level-nav flex flex-col items-center justify-around text-4xl font-bold pointer-events-none opacity-0 top-100 right-0 absolute w-fill sm:flex-row sm:text-base sm:font-normal sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end" :class="{'pt-6 opacity-100 pointer-events-auto text-white sm:pt0 sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
+      <ul class="top-level-nav flex flex-col items-center justify-around text-4xl font-bold pointer-events-none opacity-0 top-16 right-2 left-2 absolute w-fill sm:flex-row sm:text-base sm:font-normal sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end" :class="{'opacity-100 pointer-events-auto text-white sm:pt0 sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
         <li v-for="(link, index) in nav" :key="link.index" @click="closeNav">
           <g-link :to="link.url" class="cursor-pointer py-6 sm:py-0 sm:px-2 sm:h-10 flex items-center relative" :aira-current="$route.path === `/${link.url}`" :active="$route.path.startsWith === `/${link.url}`" :data-link="link.text">{{ link.text }}</g-link>
         </li>
@@ -66,14 +66,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.top-level-nav {
-  @screen sm {
+@media screen and (max-width: theme('screens.sm')) {
+  .top-level-nav {
     transition: opacity 0.2s ease-in;
-    .mobile-nav-open & {
-      transition: opacity 0.2s 0.2s ease-out;
-    }
+  }
+  .mobile-nav-open .top-level-nav {
+    transition: opacity 0.2s 0.2s ease-out;
   }
 }
+
 .top-level-nav a.active {
   text-decoration: underline;
   @screen sm {
