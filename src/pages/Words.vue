@@ -23,7 +23,6 @@ query ($page: Int) {
     edges {
       node{
         title
-        pageTitle
         fileInfo{
           name
         }

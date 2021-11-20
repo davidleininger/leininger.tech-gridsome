@@ -16,7 +16,6 @@ query {
     edges {
       node{
         title
-        pageTitle
         fileInfo{
           name
         }

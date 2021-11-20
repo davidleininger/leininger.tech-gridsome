@@ -15,7 +15,6 @@
 query Page ($path: String!) {
   list: listItems (path: $path) {
     title
-    pageTitle
     date(format: "MMMM DD, YYYY")
     content
     path

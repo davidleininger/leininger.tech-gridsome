@@ -16,7 +16,6 @@
 query Page ($path: String!) {
   post: posts (path: $path) {
     title
-    pageTitle
     date(format: "MMM DD, YYYY")
     source
     timeToRead
