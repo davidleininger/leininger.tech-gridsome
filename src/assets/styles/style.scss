@@ -62,7 +62,7 @@ a, button {
   touch-action: manipulation;
 }
 p{
-  margin: 1rem 0;
+  margin-bottom: 1.5em;
 }
 .skip-to-content{
   background: var(--bg);
@@ -312,6 +312,55 @@ article {
   }
 }
 
+.ldt-list {
+  img{
+    margin: 1rem 0;
+  }
+  ol {
+    list-style: none;
+    counter-reset: list_counter var(--list-reset, 0);
+  }
+  ol li {
+    align-items: baseline;
+    counter-increment: list_counter;
+  }
+  .reversed ol li {
+    counter-increment: list_counter -1;
+  }
+  ol li::before {
+    content: counter(list_counter);
+    color: var(--accent);
+    font-family: theme('fontFamily.mono');
+    font-variant-numeric: tabular-nums;
+    margin-right: 1rem;
+  }
+  ul li::before {
+    content: '•';
+    color: var(--accent);
+    font-family: theme('fontFamily.mono');
+    font-variant-numeric: tabular-nums;
+    margin-right: 1rem;
+  }
+  li {
+    margin: 1rem 0;
+    &:first-of-type {
+      margin-top: 0;
+    }
+    @screen sm {
+      font-size: theme('fontSize.lg');
+    }
+    @screen md {
+      font-size: theme('fontSize.xl');
+    }
+  }
+  .description {
+    color: var(--primary);
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+}
 
 // PRISM
 :root {
