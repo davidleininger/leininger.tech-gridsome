@@ -59,15 +59,6 @@ module.exports = {
         ],
       },
     },
-    templates: {
-      Posts: [
-        {
-        path: (node) => {
-          return `/words/${node.fileInfo.name}`
-        }
-      }
-      ]
-    },
     css: {
         loaderOptions: {
             postcss: {
