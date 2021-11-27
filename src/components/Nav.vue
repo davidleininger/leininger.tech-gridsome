@@ -1,7 +1,7 @@
 <template>
   <section class="w-full flex justify-end items-center">
     <nav class="h-10 w-full flex items-center">
-      <Logo @click.native="navIsOpen = false" class="mr-auto" />
+      <Logo @click.native="closeNav" class="mr-auto" />
       <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="handleChange" aria-label="Menu Toggle" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu /></span><span class="flex flex-col justify-center items-center text-black" v-else><Close /></span></button>
       <ul class="top-level-nav flex flex-col items-center justify-around text-4xl font-bold pointer-events-none opacity-0 top-16 right-2 left-2 absolute w-fill sm:flex-row sm:text-base sm:font-normal sm:pointer-events-auto sm:opacity-100 sm:static sm:top-auto sm:left-auto sm:w-auto sm:justify-end" :class="{'opacity-100 pointer-events-auto text-white sm:pt0 sm:text-grey-darkest sm:dark:text-grey-dark': navIsOpen}">
         <li v-for="(link, index) in nav" :key="link.index" @click="closeNav">
@@ -68,10 +68,12 @@ export default {
 <style lang="scss" scoped>
 @media screen and (max-width: theme('screens.sm')) {
   .top-level-nav {
+    z-index: -1;
     transition: opacity 0.2s ease-in;
   }
   .mobile-nav-open .top-level-nav {
     transition: opacity 0.2s 0.2s ease-out;
+    z-index: 0;
   }
 }
 
@@ -97,7 +99,10 @@ export default {
   transform: translate3d(0, -100%, 0);
   transition: transform .2s ease-in;
   width: 100%;
-  .mobile-nav-open & {
+
+}
+.top-level-nav a::after {
+  @media screen and (max-width: theme('screens.sm')) {
     display: none;
     content: '';
   }
