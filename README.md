@@ -1,14 +1,9 @@
-# Default starter for Gridsome
+# Leininger.Tech
+This is my personal site for this I write about and build.
 
-This is the project you get when you run `gridsome create new-project`.
+### Running the site
 
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+1. `cd leininger.tech` to pop into the directory
+2. `yarn install` to get all the things
+3. `yarn dev` to start up that bad boy `http://localhost:8080`
+4. Go go go
