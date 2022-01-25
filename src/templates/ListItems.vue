@@ -91,6 +91,12 @@ article /deep/ {
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
+    a {
+      color: var(--base) !important;
+    }
+    a:hover {
+      color: var(--accent) !important;
+    }
   }
 }
 </style>
