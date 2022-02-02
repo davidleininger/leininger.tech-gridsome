@@ -1,5 +1,5 @@
 ---
-title: Animation style declarations override normal style declarations
+title: "Specificity: Animation Declarations"
 TILIndex: 26
 date: 2022-01-28
 source: https://www.matuzo.at/blog/2022/specificity/
