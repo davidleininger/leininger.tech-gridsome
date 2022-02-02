@@ -59,7 +59,7 @@ query {
         fileInfo{
           name
         }
-        date(format: "MM-DD-YYYY")
+        date(format: "MMM DD, YYYY")
         path
         TILIndex
       }
