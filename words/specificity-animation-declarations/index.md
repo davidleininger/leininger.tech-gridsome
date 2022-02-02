@@ -12,7 +12,6 @@ Specificity can be super confusing, and just when I think I have it really naile
 body {
   animation: bg 0s forwards;
 }
-
 @keyframes bg {
   to {
     background: yellow;
