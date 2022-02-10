@@ -69,7 +69,7 @@
       <p>To be fair, I used power tools. My hands can't cut and glue wood, but I still made the darn thing. I'll probably make another thicker version soon.</p>
 
       <h3>Steelcase Leap V1</h3>
-      <p>When we started working remote at the begining of Covid, I knew I needed a better chair. This is a better chair. Oh and I swapped out those wheels for roller blade wheels, and I'm never going back.</p>
+      <p>When we started working remote at the beginning of Covid, I knew I needed a better chair. This is a better chair. Oh and I swapped out those wheels for roller blade wheels, and I'm never going back.</p>
 
       <h3>Keychron C1</h3>
       <p>Recently jumped on the mecahnical keyboard game. We'll see how my likely new hobby is about to go, but it's fun so far. Let's get to modding.</p>
