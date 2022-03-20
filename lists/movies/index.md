@@ -4,8 +4,8 @@ date: 2020-01-01
 ---
 
 1. The United States of Leland
-2. Hot Rod
-3. Scott Pilgram vs the World
-4. --
-5. Peanut Butter Falcon
-6. We Bought a Zoo
+1. Hot Rod
+1. Scott Pilgram vs the World
+1. --
+1. Peanut Butter Falcon
+1. We Bought a Zoo
