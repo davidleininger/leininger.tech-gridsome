@@ -45,6 +45,9 @@ export default {
 
 <style lang="scss" scoped>
 article /deep/ {
+  h2, h3 {
+    margin-top: 2.5em;
+  }
   ol {
     list-style: none;
     counter-reset: list_counter var(--list-reset, 0);
