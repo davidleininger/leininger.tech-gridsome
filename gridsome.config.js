@@ -39,6 +39,11 @@ module.exports = {
         options: {
           path: 'lists/**/*.md',
           typeName: 'ListItems',
+          remark: {
+            plugins: [
+                '@gridsome/remark-prismjs'
+            ]
+          }
         }
       },
 
