@@ -100,6 +100,11 @@ query {
   cursor: help;
   outline: none;
 }
+@media (prefers-reduced-motion) {
+  .say-my-name, .say-my-name:hover, .say-my-name:focus {
+    animation-duration: 0s;
+  }
+}
 .say-my-name::after {
   color: var(--primary);
   content: 'Lining-er';
