@@ -9,7 +9,7 @@
       <h3>Hyper</h3>
       <p>Hyper is my go to terminal when I’m not inside of VS Code. Usually, I just use hyper to start up new projects and then pop into VS Code.</p>
       <h3>Cobalt Next</h3>
-      <p>I built for prertty much everything: VS Code, Hyper, Alfred, Insomnia, and this site.</p>
+      <p>I built for pretty much everything: VS Code, Hyper, Alfred, Insomnia, and this site.</p>
       <h3>Operator Mono</h3>
       <p>Yes, I spent $200 on a font for coding. I stare at it every day, and as a designer and type nerd I can honestly say it’s been more than worth it.</p>
       <h3>Dotfiles</h3>
@@ -23,13 +23,13 @@
       <p>Long live Adobe... Still the best tool for branding design. Period.</p>
 
       <h3>Alfred</h3>
-      <p>Probably one of the first things I do when I get a new machine is install Alfred. I know that Spotlight isgood, but it’s not good enough. Plus... workflows. </p>
+      <p>Probably one of the first things I do when I get a new machine is install Alfred. I know that Spotlight is good, but it’s not good enough. Plus... workflows. </p>
 
       <h3>Things </h3>
-      <p>Getting Things Done - Mostly. I use so many differnt ways of tracking work between family, work, and myself.Things is where I keep my things, but there are a lot of other places where todo items live. </p>
+      <p>Getting Things Done - Mostly. I use so many different ways of tracking work between family, work, and myself.Things is where I keep my things, but there are a lot of other places where todo items live. </p>
 
       <h3>aText</h3>
-      <p>TextExpander was too expensive. This is basically the same thing. All my dev snippets regarless of editor (even codepen).</p>
+      <p>TextExpander was too expensive. This is basically the same thing. All my dev snippets regardless of editor (even codepen).</p>
 
       <h3>Contrast </h3>
       <p>Checking color contrast ratios from the menubar. Easy peasy.</p>
@@ -62,8 +62,8 @@
       <p>REST Client for testing API calls.</p>
 
       <h2>Working Furniture</h2>
-      <h3>Autonmyous Frame</h3>
-      <p>Sittings the new smoking, right? I try not to sit all day, and I was looking for a good set of legs. Now, I stand on that great set of legs at my standing desk with Autonmyous legs.</p>
+      <h3>Autonomous Frame</h3>
+      <p>Sittings the new smoking, right? I try not to sit all day, and I was looking for a good set of legs. Now, I stand on that great set of legs at my standing desk with Autonomous legs.</p>
 
       <h3>Handmade Red Oak Desktop</h3>
       <p>To be fair, I used power tools. My hands can't cut and glue wood, but I still made the darn thing. I'll probably make another thicker version soon.</p>
@@ -72,10 +72,10 @@
       <p>When we started working remote at the beginning of Covid, I knew I needed a better chair. This is a better chair. Oh and I swapped out those wheels for roller blade wheels, and I'm never going back.</p>
 
       <h3>Keychron C1</h3>
-      <p>Recently jumped on the mecahnical keyboard game. We'll see how my likely new hobby is about to go, but it's fun so far. Let's get to modding.</p>
+      <p>Recently jumped on the mechanical keyboard game. We'll see how my likely new hobby is about to go, but it's fun so far. Let's get to modding.</p>
 
       <h2>Bonus Crap</h2>
-      <h3>Airpods Pro</h3>
+      <h3>AirPods Pro</h3>
       <p>So I can read ALL the audio books. They are good for meetings, too.</p>
 
       <h3>Timbuk2 Bags</h3>

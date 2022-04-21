@@ -60,7 +60,7 @@
       </form>
       <div v-else>
         <h2>Thanks for reaching out</h2>
-        <p>I'll try to get back to you as soon as possible. In the mean time, here's my favorite <a href="https://www.youtube.com/watch?v=APQ09eK99GA">14 second youtube video</a>. Enojy.</p>
+        <p>I'll try to get back to you as soon as possible. In the mean time, here's my favorite <a href="https://www.youtube.com/watch?v=APQ09eK99GA">14 second youtube video</a>. Enjoy.</p>
         <base-button @button-clicked="resetForm" class="mt-4">Say More</base-button>
       </div>
     </article>
