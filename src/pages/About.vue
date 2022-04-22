@@ -16,7 +16,7 @@
           Extra Credit:
         </h2>
         <p>
-          I am a diehard Blues fan, LFC fan, and recently became a St Louis City SC fan. I could spend hours talking about the merits of pizza. I believe that breakfast food is the best kind of food. I don’t drink coffee, but I love coffee shops. I eat cupcakes by turning them into sandwiches. I like good bourbon. I have a lot of tattoos. I like building things with power tools. I've been to 49 states – here's looking at you Alaska.
+          I am a diehard Blues fan, LFC fan, and recently became a St Louis City SC fan.  I'm a self-proclaimed pizza sommelier, and I could spend hours talking about the merits of pizza. I believe that breakfast food is the best kind of food. I don’t drink coffee, but I love coffee shops. I eat cupcakes by turning them into sandwiches. I like good bourbon. I have a lot of tattoos. I like building things with power tools. I've been to 49 states – here's looking at you Alaska.
         </p>
       </div>
       <g-image class="w-full md:w-2/5 lg:w-1/3 mb-6" src="~/assets/images/rad-fam.jpg" alt=".My family"/>

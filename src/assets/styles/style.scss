@@ -439,12 +439,16 @@ article :not(pre) > code[class*="language-"] {
   background: var(--code-bg);
 }
 article :not(pre) > code {
-  background: var(--code-bg);
+  background: theme('colors.grey');
   border-radius: 0.3em;
-  color: var(--accent) !important;
+  color: theme('colors.grey-darkest') !important;
   font-size: 0.875rem;
   font-weight: normal;
   padding: 0.1em 0.5em;
+}
+.dark article :not(pre) > code {
+  background: var(--code-bg);
+  color: var(--accent) !important;
 }
 article code::before, article code::after{
   display:none;
