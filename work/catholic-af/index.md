@@ -4,7 +4,7 @@ thumbnail: "./thumbnail.jpg"
 order: 1
 title: Catholic AF
 slug: catholic-af
-# source: http://catholic.af
+source: http://caf.leininger.tech
 tags: [Branding, Design, Development]
 ---
 
@@ -20,7 +20,7 @@ Both Mike and I are developers and we're always looking for a place to play arou
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-In the end, it was a lot of fun, and I'm glad we did it. I wish people would be a little more open to taking a joke, but there's nothing I can do about that - maybe it's my fault for tiptoeing up to the line... We've still got a few shirts and some stickers left, [hit me up](/contact) if you want one.
+In the end, it was a lot of fun, and I'm glad we did it. I wish people would be a little more open to taking a joke, but there's nothing I can do about that - maybe it's my fault for tiptoeing up to the line... You can take a look at a [partial working version of the app](https://caf.leininger.tech), and we've still got a few shirts and some stickers left, [hit me up](/contact) if you want one.
 
 ## My Contributions:
 Logo/Branding Design. Website and Email Design. Apparel and Sticker Design. Development.
