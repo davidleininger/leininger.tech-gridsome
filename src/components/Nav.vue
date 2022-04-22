@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex justify-end items-center">
+  <div class="w-full flex justify-end items-center">
     <nav class="h-10 w-full flex items-center">
       <Logo @click.native="closeNav" class="mr-auto" />
       <button class="toggle sm:hidden flex justify-center items-center h-10 w-10 flex-shrink-0 relative text-xxs" @click="handleChange" aria-label="Menu Toggle" :aria-expanded="navIsOpen.toString()"><span class="flex flex-col justify-center items-center" v-if="!navIsOpen"><Menu /></span><span class="flex flex-col justify-center items-center text-black" v-else><Close /></span></button>
@@ -12,7 +12,7 @@
     <button @click="changeMode" class="toggle flex justify-center items-center h-10 w-10 flex-shrink-0 relative" aria-label="Color Mode Toggle" :aria-pressed="isDarkMode ? 'true' : 'false'">
       <Toggle v-if="isDarkMode != null" :is-dark="isDarkMode" />
     </button>
-  </section>
+  </div>
 </template>
 
 <script>

@@ -12,19 +12,19 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   head.link.push({
     rel: 'preload',
-    href: '/assets/fonts/CartographCF-Bold-subset.woff2',
+    href: '/assets/fonts/CartographCF-Bold.woff2',
     as: 'font',
     crossOrigin: 'anonymous'
   })
   head.link.push({
     rel: 'preload',
-    href: '/assets/fonts/marcher-regular-subset.woff2',
+    href: '/assets/fonts/marcher-book.woff2',
     as: 'font',
     crossOrigin: 'anonymous'
   })
   head.link.push({
     rel: 'preload',
-    href: '/assets/fonts/marcher-regularitalic-subset.woff2',
+    href: '/assets/fonts/marcher-bookitalic.woff2',
     as: 'font',
     crossOrigin: 'anonymous'
   })

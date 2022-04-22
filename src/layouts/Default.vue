@@ -1,5 +1,5 @@
 <template>
-  <main id="main-content" class="content my-12">
+  <main id="main" class="content my-12">
     <slot/>
   </main>
 </template>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="scss">
-#main-content {
+#main {
   margin-left: auto;
   margin-right: auto;
   width: 100%;

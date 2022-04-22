@@ -9,6 +9,7 @@ if (process.env.NODE_ENV === 'production') { postCSSPlugins.push(require(`postcs
 
 module.exports = {
     siteName: 'leininger.tech',
+    catchLinks: false,
     plugins: [
       {
         use: '@gridsome/source-filesystem',
