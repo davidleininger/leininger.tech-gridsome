@@ -3,7 +3,7 @@
     <article class="min-w-0">
       <h1 class="text-black dark:text-white font-mono text-3xl sm:text-4xl md:text-5xl mb-2">{{ $page.post.title }}</h1>
       <p class="text-sm text-teal-dark dark:text-teal mt-0 mb-8">{{ $page.post.date }} • {{ $page.post.timeToRead }} min <span v-if="$page.post.TILIndex" class="text-purple-dark dark:text-yellow"> • TIL #{{ $page.post.TILIndex }}</span></p>
-      <div v-html="$page.post.content"/>
+      <div v-html="$page.post.content" class="flow" />
     </article>
     <ButtonGroup>
         <ButtonLink link="/words" class="flex-1 md:flex-none">Back To Words</ButtonLink>

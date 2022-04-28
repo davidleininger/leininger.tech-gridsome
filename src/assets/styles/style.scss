@@ -61,9 +61,22 @@ body{
 a, button {
   touch-action: manipulation;
 }
-p{
-  margin-bottom: 1.5em;
+/* ---
+  Composition
+  --- */
+.flow > * + * {
+  margin-top: var(--spacer, 1.5em);
 }
+h2 {
+  --spacer: 2.5rem;
+}
+h3 {
+  --spacer: 2rem;
+}
+.flow :is(h2 + *, h3 + *) {
+  margin-top: 0.5rem;
+}
+
 .skip-to-content{
   background: var(--bg);
   color: var(--base);
@@ -428,7 +441,7 @@ code[class*="language-"]::mozselection {
 pre[class*="language-"] {
   background: var(--code-bg);
   border-left: 8px solid var(--primary);
-  margin: 1em 0;
+  // margin: 1em 0;
   overflow: auto;
   padding: 1em;
 }
