@@ -12,7 +12,7 @@
         action="/success/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        class="flex flex-col gap-6"
+        class="flex flex-col gap-6 mt-8"
       >
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>

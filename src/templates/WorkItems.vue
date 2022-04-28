@@ -8,7 +8,7 @@
         </li>
       </ul>
       <g-image :src="$page.work.img.src" :alt="`${$page.work.title} preview image`" class="border border-grey-light dark:border-0 mb-6" />
-      <div v-html="$page.work.content"/>
+      <div v-html="$page.work.content" class="flow" />
     </article>
     <ButtonGroup>
       <ButtonLink link="/work">Back to Work</ButtonLink>

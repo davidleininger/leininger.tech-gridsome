@@ -1,6 +1,6 @@
 <template>
   <Layout class="content-grid">
-    <article>
+    <article class="flow">
       <h1 class="text-black dark:text-white text-5xl font-mono mb-2">Uses</h1>
       <p>Just like everyone else, this was inspired by <a href="https://wesbos.com/uses">Wes Bos</a>. These are things I use on a daily basis that make my life better, easier, or opinionated. You probably don’t really care, but I bet I’ve got a trick or two you don’t know about...</p>
       <h2>Dev Stuff</h2>
@@ -98,9 +98,5 @@ h3 {
   color: var(--primary);
   font-size: 1.15rem;
   font-family: theme('fontFamily.mono');
-  margin-top: 0.5rem;
-}
-p {
-  margin-top: 0;
 }
 </style>

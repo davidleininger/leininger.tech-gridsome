@@ -3,7 +3,7 @@
     <article>
       <h1 class="text-black dark:text-white text-4xl sm:text-5xl font-mono mb-2 md:pr-4">{{ $page.list.title }}</h1>
       <p class="text-sm text-teal-dark dark:text-teal mt-0">Edited On {{ $page.list.date }}</p>
-      <div class="mt-12" :class="{'reversed': $page.list.reversed}" :style="`--list-reset: ${$page.list.counterReset}`" v-html="$page.list.content"/>
+      <div class="mt-12 flow" :class="{'reversed': $page.list.reversed}" :style="`--list-reset: ${$page.list.counterReset}`" v-html="$page.list.content"/>
     </article>
     <ButtonGroup>
       <ButtonLink link="/lists" class="flex-1 md:flex-none">Back To List</ButtonLink>
