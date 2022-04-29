@@ -9,9 +9,9 @@ At first, when I saw `:where()`, I didn’t see how different it was from `:is()
 
 A selector's specificity helps determine which styles should be applied when multiple selectors target a single element. The applied styles come from the most specific selector that contains each declaration. Each selector has its own specificity “score” determined by the contents of the selector: ids, classes, elements, etc... These scores are broken down into three levels:
 
-1. [Type selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors): These are tags (`h1`, `p`, `main`) and pseudo-elements (`::before`)
+1. [ID selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors): These are IDs (`#example`)
 2. [Class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors): These are classes (`.example`), attributes selectors (`[type="radio"]`) and pseudo-classes (`:hover`)
-3. [ID selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors): These are IDs (`#example`)
+3. [Type selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors): These are tags (`h1`, `p`, `main`) and pseudo-elements (`::before`)
 
 <style>
 ol{
