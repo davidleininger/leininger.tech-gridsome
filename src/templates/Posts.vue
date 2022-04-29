@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 [aria-label="summary"] {
-  border-bottom: 1px solid theme('colors.black-light');
+  border-bottom: 1px solid var(--subtle);
   font-size: 1.125em;
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
