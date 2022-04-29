@@ -48,7 +48,7 @@ Let’s compare that to the same example with `:where()`:
 ```css
 :where(.sidebar, footer, #feature) section a
 ```
-We get a specificity of `0, 0, 1` this time. This is where `:where()` shines and is different. The only part of this selector to score points is the `section a` selectors giving the Type Selector level a score of `2`.
+We get a specificity of `0, 0, 2` this time. This is where `:where()` shines and is different. The only part of this selector to score points is the `section a` selectors giving the Type Selector level a score of `2`.
 
 We can take it a step further and wrap that whole thing in a `:where()`.
 
