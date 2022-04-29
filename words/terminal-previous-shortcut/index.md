@@ -3,7 +3,7 @@ title: "Terminal: Previous Shortcut"
 TILIndex: 28
 date: 2022-04-20
 source: https://www.joshwcomeau.com/javascript/terminal-for-js-devs/
-tldr: "use <code>cd -</code> to go back to the previous working directory or git branch."
+tldr: "use <code>cd -</code> to go back to the previous working directory or or <code>git checkout -</code> to go back to the previous git branch."
 ---
 
 Being a front-end dev, I have some kind of relationship with the terminal. Sometimes, I have a desire to learn more and be a hacker, but most of the time what I know gets me by. That said, sometimes I find something that is so simple that it instantly becomes a part of my workflow.
