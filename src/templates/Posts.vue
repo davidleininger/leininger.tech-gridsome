@@ -4,7 +4,7 @@
       <h1 class="text-black dark:text-white font-mono text-3xl sm:text-4xl md:text-5xl mb-2">{{ $page.post.title }}</h1>
       <p class="text-sm text-teal-dark dark:text-teal mt-0 mb-8">{{ $page.post.date }} • {{ $page.post.timeToRead }} min <span v-if="$page.post.TILIndex" class="text-purple-dark dark:text-yellow"> • TIL #{{ $page.post.TILIndex }}</span></p>
       <section aria-label="summary" v-if="$page.post.tldr">
-        <span class="summary-heading">TL;DR</span> <span class="summary-text" v-html="$page.post.tldr" />
+        <span class="summary-heading"><abbr title="Too Long Didn't Read">TL;DR</abbr></span> <span class="summary-text" v-html="$page.post.tldr" />
       </section>
       <div v-html="$page.post.content" class="flow" />
     </article>
