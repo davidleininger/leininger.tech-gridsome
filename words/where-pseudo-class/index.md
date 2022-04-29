@@ -154,7 +154,7 @@ a:where(:not([class])) {
 }
 ```
 
-Here is another example where dropping that extra specificity point is a big deal. If an app using this system needs to adjust the update the color or change up the styles for their app, they don’t have to fight the specificity like they would in the first example. Using `:where()` in this example means that a simple `a` selector will override the specified styles. For example:
+Here is another example where dropping that extra specificity point is a big deal. If an app using this system needs to adjust the color or change up the styles for their app, they don’t have to fight the specificity like they would in the first example. Using `:where()` in this example means that a simple `a` selector will override the specified styles. For example:
 
 ```css
 /* ----
