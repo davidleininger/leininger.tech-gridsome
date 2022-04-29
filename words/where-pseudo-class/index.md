@@ -33,22 +33,31 @@ ol li::before {
 }
 </style>
 
-Each level has its own “score” which looks like `0, 0, 0` for no specificity. The order of the specificity score is `id, class, type`. A `1` in the ID Selector level won’t be able to be overridden by the other two types. It will need another ID to be more specific.
+Each level has its own “score” which looks like `0, 0, 0` for no specificity. The order of the specificity score is `id, class, type`. The "score" is a count of each selector type in a rule. For example, `.header nav h1#sitetitle > .logo` has a score of `1, 2, 2`.  A `1` in the ID Selector level won’t be able to be overridden by the other two types. It will need another ID to be more specific.
 
 ## Back to :is() and :where()
 
 Let’s take a look at how this specificity plays out for `:is()` and `:where()`. First let’s look at `:is()`:
 ```css
-:is(section, .sidebar, footer, #feature) a
+:is(.sidebar, footer, #feature) section a
 ```
-Using `:is()` gives us a specificity of `1, 0, 1`.  Since `:is()` takes the specificity of the most specific argument, `#feature` ID gives us the `1` in the ID Selector level, and the trailing `a` gives us the `1` in the Type Selector level.
+Using `:is()` gives us a specificity of `1, 0, 2`.  Since `:is()` takes the specificity of the most specific argument, `#feature` ID gives us the `1` in the ID Selector level, and the trailing `section a` gives us the `2` in the Type Selector level.
 
 Let’s compare that to the same example with `:where()`:
 
 ```css
-:where(section, .sidebar, footer, #feature) a
+:where(.sidebar, footer, #feature) section a
 ```
-We get a specificity of `0, 0, 1` this time. This is where `:where()` shines and is different. The only part of this selector to score points is the `a` selector giving the Type Selector level a score of `1`. That means that `:where()` selectors are easier to override and work in larger systems.
+We get a specificity of `0, 0, 1` this time. This is where `:where()` shines and is different. The only part of this selector to score points is the `section a` selectors giving the Type Selector level a score of `2`.
+
+We can take it a step further and wrap that whole thing in a `:where()`.
+
+```css
+:where(:is(.sidebar, footer, #feature) section a)
+```
+
+The score here is `0, 0, 0` because everything is wrapped in a `:where()` pseudo class. The `:is()` value even gets set to `0`. That means that `:where()` selectors are easier to override and work well in larger systems.
+
 
 *Take a look and try out different selectors at [https://polypane.app/css-specificity-calculator/](https://polypane.app/css-specificity-calculator/)*
 
