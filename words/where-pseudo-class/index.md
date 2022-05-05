@@ -1,6 +1,7 @@
 ---
 title: "Where to use :where()"
 date: 2022-04-28
+image: ./where-og-img.jpg
 ---
 
 At first, when I saw `:where()`, I didn’t see how different it was from `:is()`, and I didn’t give it much of a second thought. To be fair, it is very similar. Just like `:is()`, `:where()` can take multiple arguments, and it won’t blow up if one of the arguments is invalid, as a standard list of selectors would. The critical difference is that `:is()` has the specificity of the most specific selector in its arguments, while `:where()` is always `0`.
