@@ -46,6 +46,11 @@ export default {
       title: this.$page.post.title.toLowerCase(),
       meta: [
         {
+          key: 'og:title',
+          name: 'og:title',
+          content: this.$page.post.title,
+        },
+        {
           key: 'og:image',
           name: 'og:image',
           content: imagePath,
@@ -55,6 +60,11 @@ export default {
           key: 'twitter:card',
           name: 'twitter:card',
           content: 'summary_large_image',
+        },
+        {
+          key: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$page.post.title,
         },
         {
           key: 'twitter:image',
