@@ -41,7 +41,7 @@ export default {
   },
   metaInfo() {
     const image = this.$page.post.image
-    const imagePath = image?.src || '/lt-og-img.jpg'
+    const imagePath = image ? `https://leininger.tech${image.src}` : 'https://leininger.tech/lt-og-img.jpg';
     return {
       title: this.$page.post.title.toLowerCase(),
       meta: [
