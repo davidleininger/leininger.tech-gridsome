@@ -25,6 +25,7 @@ query Page ($path: String!) {
     TILIndex
     tldr
     content
+    image
   }
 }
 </page-query>
@@ -39,8 +40,23 @@ export default {
     ButtonGroup
   },
   metaInfo() {
+    const image = this.$page.post.image
+    const imagePath = image.src || '/lt-og-img.jpg'
     return {
       title: this.$page.post.title.toLowerCase(),
+      meta: [
+        {
+          key: 'og:image',
+          name: 'og:image',
+          content: imagePath,
+        },
+
+        {
+          key: 'twitter:image',
+          name: 'twitter:image',
+          content: imagePath,
+        },
+      ],
     }
   }
 }
