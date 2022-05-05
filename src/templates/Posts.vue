@@ -52,6 +52,11 @@ export default {
         },
 
         {
+          key: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+        {
           key: 'twitter:image',
           name: 'twitter:image',
           content: imagePath,
