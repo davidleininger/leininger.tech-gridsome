@@ -4,7 +4,7 @@
       <div class="flex flex-col justify-center w-full">
         <h1 class="text-4xl sm:text-5xl text-black dark:text-white font-bold font-mono mb-4">Hello, I'm <span class="look-at-me relative mr-8">David</span><span class="say-my-name relative">Leininger</span>.</h1>
         <h2 class="text-2xl sm:text-3xl mt-2 md:mt-0 mb-4 dark:text-grey-dark">I design and build things for the internets.</h2>
-        <h3 class="text-md sm:text-lg mt-1 md:mt-0 mb-4 dark:text-grey-dark">I like learning and <span class="strike">sometimes</span> hardly ever write about it.</h3>
+        <h3 class="text-md sm:text-lg mt-1 md:mt-0 mb-4 dark:text-grey-dark">I like learning and <s>sometimes</s> hardly ever write about it.</h3>
         <p class="text-xxs sm:ext-xs my-0 dark:text-grey-dark">This is some small text.</p>
       </div>
     </section>

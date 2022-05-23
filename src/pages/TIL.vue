@@ -1,7 +1,7 @@
 <template>
   <Layout class="list">
     <h1 class="text-black dark:text-white text-5xl font-mono mb-2 md:pr-4">Today I Learned</h1>
-    <p>I like learning and <span class="strike">sometimes</span> hardly ever write about it. I’m trying to be better about that now.</p>
+    <p>I like learning and <s>sometimes</s> hardly ever write about it. I’m trying to be better about that now.</p>
 
     <ul>
       <li v-for="post in $page.posts.edges" :key="post.node.id" class="border-b border-teal-dark dark:border-teal hover:border-b-3 py-6">
