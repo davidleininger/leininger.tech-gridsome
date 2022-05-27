@@ -23,8 +23,8 @@
         <div class="flex flex-col sm:flex-row gap-6 sender-info">
           <BaseInput
             v-model="formData.name"
-            :error="error"
-            :has-errors="hasErrors"
+            error="I need to know who you are..."
+            :has-errors="formData.name === ''"
             label="Name"
             type="text"
             name="name"
@@ -34,8 +34,8 @@
           />
           <BaseInput
             v-model="formData.email"
-            :error="error"
-            :has-errors="hasErrors"
+            error="How else will I reply to you..."
+            :has-errors="formData.email === ''"
             label="Email"
             type="email"
             name="email"
@@ -47,8 +47,8 @@
         <div class="message-wrapper flex">
           <base-textarea
             v-model="formData.message"
-            :error="error"
-            :has-errors="hasErrors"
+            error="Well, you gotta write something..."
+            :has-errors="formData.message === ''"
             label="Message"
             name="message"
             placeholder="Words written by you that I’ll read"
@@ -56,7 +56,8 @@
             class="flex-1"
           />
         </div>
-        <base-button type="submit" class="self-end">Send</base-button>
+        <p v-if="formError && !formEmpty" class="text-red dark:text-red-light">Listen, you gotta fill this thing out if you're you want to submit it...</p>
+        <base-button type="submit" class="self-end" aria-label="Send">Send</base-button>
       </form>
       <div v-else>
         <h2>Thanks for reaching out</h2>
@@ -85,6 +86,12 @@ export default {
     return {
       formData: {},
       successfulSend: false,
+      formError: false,
+    }
+  },
+  computed: {
+    formEmpty() {
+      return this.formData.name && this.formData.email && this.formData.message
     }
   },
   methods: {
@@ -94,6 +101,11 @@ export default {
         .join('&')
     },
     handleSubmit(e) {
+      console.log(this.formData)
+      if(!this.formEmpty || this.formData.name === '' || this.formData.email === '' || this.formData.message === '') {
+        this.formError = true
+        return
+      }
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -108,6 +120,7 @@ export default {
     resetForm() {
       this.formData = {}
       this.successfulSend = false
+      this.formError = false
     }
   }
 }
