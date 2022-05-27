@@ -4,7 +4,7 @@
       v-if="label !== ''"
       :class="{
         'form-label-required': required,
-        'text-red': hasErrors
+        'text-red dark:text-red-light': hasErrors
       }"
       class="text-left mb-2 block"
     >
@@ -16,7 +16,7 @@
       :type="type"
       :class="[{
         'border-teal-dark dark:border-teal': !hasErrors && !$attrs.disabled,
-        'border-red': hasErrors,
+        'border-red dark:border-red-light': hasErrors,
         'bg-grey-dark border-gray-darker cursor-not-allowed': $attrs.disabled
       }, fieldClass]"
       class="bg-white focus:text-black focus:border-purple-dark dark:bg-black dark:focus:text-white dark:focus:border-yellow rounded-none border-2 p-2 w-full focus:outline-none block"
@@ -24,7 +24,7 @@
     >
     <div
       v-if="hasErrors"
-      class="block mt-2 text-red text-xs"
+      class="block mt-2 text-red dark:text-red-light text-sm"
     >
       {{ error }}
     </div>
