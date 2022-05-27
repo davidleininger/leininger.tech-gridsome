@@ -56,7 +56,7 @@
             class="flex-1"
           />
         </div>
-        <p v-if="formError && !formEmpty" class="text-red dark:text-red-light">Listen, you gotta fill this thing out if you're you want to submit it...</p>
+        <p v-if="formError && !formEmpty" class="text-red dark:text-red-light">Listen, you gotta fill this thing out if you want to submit it. I mean seriously, what the h*ck...</p>
         <base-button type="submit" class="self-end" aria-label="Send">Send</base-button>
       </form>
       <div v-else>
