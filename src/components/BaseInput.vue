@@ -15,11 +15,11 @@
       :value="decodedValue"
       :type="type"
       :class="[{
-        'bg-white border-teal-dark focus:text-black focus:border-purple-dark dark:bg-black dark:border-teal dark:focus:text-white dark:focus:border-yellow': !hasErrors && !$attrs.disabled,
+        'border-teal-dark dark:border-teal': !hasErrors && !$attrs.disabled,
         'border-red': hasErrors,
         'bg-grey-dark border-gray-darker cursor-not-allowed': $attrs.disabled
       }, fieldClass]"
-      class="rounded-none border-2 p-2 w-full focus:outline-none block"
+      class="bg-white focus:text-black focus:border-purple-dark dark:bg-black dark:focus:text-white dark:focus:border-yellow rounded-none border-2 p-2 w-full focus:outline-none block"
       v-on="listeners"
     >
     <div

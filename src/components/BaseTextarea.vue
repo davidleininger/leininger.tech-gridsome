@@ -14,10 +14,10 @@
       v-bind="$attrs"
       :value="decodedValue"
       :class="[{
-        'bg-white border-teal-dark focus:text-black focus:border-purple-dark dark:bg-black dark:border-teal dark:focus:text-white dark:focus:border-yellow': !hasErrors,
+        'border-teal-dark dark:border-teal': !hasErrors,
         'border-red': hasErrors
       }, fieldClass]"
-      class="resize-y rounded-none border-2 p-2 w-full focus:outline-none block"
+      class="bg-white focus:text-black focus:border-purple-dark dark:bg-black dark:focus:text-white dark:focus:border-yellow resize-y rounded-none border-2 p-2 w-full focus:outline-none block"
       v-on="listeners"
       :style="styleObject"
     />
