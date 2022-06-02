@@ -1,0 +1,9 @@
+[build]
+  command = "yarn run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "https://doinginterneting.com/*"
+  to = "https://leininger.tech/:splat"
+  status = 301
+  force = true
