@@ -5,7 +5,7 @@ counterReset: 2022
 reversed: true
 ---
 
-Every year since we've had kids we do a family halloween costume for Boo at the Zoo. The rule is that the kids can do whatever they want for halloween, but we do family costumes for Boo at the Zoo, and I'm flipping proud of them I've never been much for costumes, but this I can get behind. Without further ado, here are our costumes throughout the years.
+Every year since we've had kids we do a family halloween costume for Boo at the Zoo. The rule is that the kids can do whatever they want for halloween, but we do family costumes for Boo at the Zoo, and I'm flipping proud of them. I've never been much for costumes, but this I can get behind. Without further ado, here are our costumes throughout the years.
 
 _Oh, and before we get started. One rule we have is that every kid's fist Halloween is in the lobster costume._
 
