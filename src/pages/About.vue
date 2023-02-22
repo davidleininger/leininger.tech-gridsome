@@ -9,7 +9,7 @@
         </p>
 
         <p>
-          I am a <s>Senior Developer</s>&nbsp;<s>Manager</s> UX Architect at <a href="https://wwt.com">World Wide Technology</a>, where I help design and build websites and apps. When I'm not at work, I volunteer with the live streaming at church, and I help run production at several Catholic youth conferences around the country. I live in St. Louis with my amazing wife and <s>daughter</s>&nbsp;<s>two</s> three daughters. They are all too good for me, but slum it with me because I’m kind of funny, I have power tools, and I'm an average cook. #girdad
+          I am a Staff Software Engineer for Design Systems and Accessibility at <a href="https://nytimes.com">The New York Times</a>, where I help design and build websites and apps. When I'm not at work, I volunteer with the live streaming at church, and I help run production at several Catholic youth conferences around the country. I live in St. Louis with my amazing wife and <s>daughter</s>&nbsp;<s>two</s>&nbsp;<s>three daughters</s> four kids. They are all too good for me, but slum it with me because I’m kind of funny, I have power tools, and I'm an average cook.
         </p>
 
         <h2 class="text-2xl mt-8 text-teal-dark dark:text-teal font-mono">
